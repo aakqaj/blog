@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello everybody</title>
-    <url>/blog/2020/05/10/hello-world/</url>
-    <content><![CDATA[<h1 id="这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧"><a href="#这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧" class="headerlink" title="这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧"></a>这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧</h1>]]></content>
-      <categories>
-        <category>入门学习</category>
-      </categories>
-      <tags>
-        <tag>启程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MarkDown基本语法</title>
     <url>/blog/2020/05/11/MarkDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## 二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### 三级标题</span></span><br></pre></td></tr></table></figure>
@@ -111,9 +100,34 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello everybody</title>
+    <url>/blog/2020/05/10/hello-world/</url>
+    <content><![CDATA[<h1 id="这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧"><a href="#这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧" class="headerlink" title="这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧"></a>这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧</h1>]]></content>
+      <categories>
+        <category>入门学习</category>
+      </categories>
+      <tags>
+        <tag>启程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客写入及样式操作</title>
     <url>/blog/2020/05/11/%E5%8D%9A%E5%AE%A2%E5%86%99%E5%85%A5%E5%8F%8A%E6%A0%B7%E5%BC%8F%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<h1 id="写入博客"><a href="#写入博客" class="headerlink" title="写入博客"></a>写入博客</h1><h1 id="配置样式"><a href="#配置样式" class="headerlink" title="配置样式"></a>配置样式</h1><h1 id="命令行操作检查博客及上传到互联网"><a href="#命令行操作检查博客及上传到互联网" class="headerlink" title="命令行操作检查博客及上传到互联网"></a>命令行操作检查博客及上传到互联网</h1><h2 id="在本地打开博客-–-用以检查"><a href="#在本地打开博客-–-用以检查" class="headerlink" title="在本地打开博客 – 用以检查"></a>在本地打开博客 – 用以检查</h2><h5 id=""><a href="#" class="headerlink" title=""></a><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></h5><p><img src="https://i.loli.net/2020/05/11/URZQaJrEqVHuzLA.png" alt="image-20200511111116947"></p>
+    <content><![CDATA[<h1 id="写入博客"><a href="#写入博客" class="headerlink" title="写入博客"></a>写入博客</h1><p><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></p>
+<p><img src="https://i.loli.net/2020/05/11/Ezi6CTNhjfUAxHm.png" alt="image-20200511163530382"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"你的文章标题"</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2020/05/11/GktlZRmTxMswSKW.png" alt="image-20200511162138471"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">你要编写的文章的相对目录: Hexo/blog/<span class="built_in">source</span>/_posts</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2020/05/11/ewbP94MgY3S7G6A.png" alt="image-20200511163809864"></p>
+<p><img src="https://i.loli.net/2020/05/11/oKjtCSTBuYxW8dn.png" alt="image-20200511161416364"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">title: 标题</span><br><span class="line">tags: 标签</span><br><span class="line">categories: 分类</span><br></pre></td></tr></table></figure>
+
+<p>写文章需要一定的markdown基础，</p>
+<p><a href="[https://aakqaj.github.io/blog/2020/05/11/MarkDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/](https://aakqaj.github.io/blog/2020/05/11/MarkDown基本语法/)">markdown语法</a></p>
+<h1 id="配置样式"><a href="#配置样式" class="headerlink" title="配置样式"></a>配置样式</h1><p>这个有点烦，就是设计博客排版，功能，有时间把这个补上</p>
+<h1 id="命令行操作检查博客及上传到互联网"><a href="#命令行操作检查博客及上传到互联网" class="headerlink" title="命令行操作检查博客及上传到互联网"></a>命令行操作检查博客及上传到互联网</h1><h2 id="在本地打开博客-–-用以检查"><a href="#在本地打开博客-–-用以检查" class="headerlink" title="在本地打开博客 – 用以检查"></a>在本地打开博客 – 用以检查</h2><h5 id=""><a href="#" class="headerlink" title=""></a><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></h5><p><img src="https://i.loli.net/2020/05/11/URZQaJrEqVHuzLA.png" alt="image-20200511111116947"></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
 <p><img src="https://i.loli.net/2020/05/11/NFrbWAeR7zQL2BS.png" alt="image-20200511111454970"></p>
@@ -139,5 +153,10 @@
       <tags>
         <tag>启程</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>你的文章标题</title>
+    <url>/blog/2020/05/11/%E4%BD%A0%E7%9A%84%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
