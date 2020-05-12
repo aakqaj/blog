@@ -1832,7 +1832,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #20e495;
+  background: #f4c2b5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3007,17 +3007,24 @@ body {
   background-attachment: fixed;
   background-position: 50% 50%;
 }
+.site-meta {
+  background: url("https://i.loli.net/2020/05/12/sFMixUhzV6yaf8R.jpg");
+}
+.brand {
+  color: #0a0e0d;
+}
+.site-subtitle {
+  color: #0a0e0f;
+}
+​,
+.footer {
+  font-size: 14px;
+  color: #b4b4b4;
+}
 .main-inner {
   background: #fff;
   opacity: 0.8;
 }
 .header-inner {
   opacity: 0.8;
-}
-.post {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }

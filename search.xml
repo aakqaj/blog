@@ -28,6 +28,7 @@
 <p>写文章需要一定的markdown基础，</p>
 <p><a href="https://aakqaj.github.io/blog/2020/05/11/MarkDown基本语法/" target="_blank" rel="noopener">markdown语法</a></p>
 <h1 id="配置样式"><a href="#配置样式" class="headerlink" title="配置样式"></a>配置样式</h1><p>这个有点烦，就是设计博客排版，功能，有时间把这个补上</p>
+<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#插入图片" target="_blank" rel="noopener">这个就不错</a></p>
 <h1 id="命令行操作检查博客及上传到互联网"><a href="#命令行操作检查博客及上传到互联网" class="headerlink" title="命令行操作检查博客及上传到互联网"></a>命令行操作检查博客及上传到互联网</h1><h2 id="在本地打开博客-–-用以检查"><a href="#在本地打开博客-–-用以检查" class="headerlink" title="在本地打开博客 – 用以检查"></a>在本地打开博客 – 用以检查</h2><h5 id=""><a href="#" class="headerlink" title=""></a><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></h5><p><img src="https://i.loli.net/2020/05/11/URZQaJrEqVHuzLA.png" alt="image-20200511111116947"></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
