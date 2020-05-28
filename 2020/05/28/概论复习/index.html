@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/blog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/blog/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/blog/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="复习," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="1.事件的概率1.无放回) 2.有放回 3.画图类 4.条件概率    ) 5.全概率公式 6.贝叶斯公式 2.一维随机变量1.已知Fx(x)与fx(x)中的一项，求另一项) 2.已知Fx(x)与fx(x)中的一种，求P) 对于a，b取不取等号对结果无影响 3.Fx(x)或fx(x)中含未知数，求未知数) 4.求分布律 5.已知含有未知数的分布列，求未知数 3.一维随机变量的函数1.已知X分布列，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="概论复习">
+<meta property="og:url" content="http://yoursite.com/2020/05/28/%E6%A6%82%E8%AE%BA%E5%A4%8D%E4%B9%A0/index.html">
+<meta property="og:site_name" content="懒狗起来学习了">
+<meta property="og:description" content="1.事件的概率1.无放回) 2.有放回 3.画图类 4.条件概率    ) 5.全概率公式 6.贝叶斯公式 2.一维随机变量1.已知Fx(x)与fx(x)中的一项，求另一项) 2.已知Fx(x)与fx(x)中的一种，求P) 对于a，b取不取等号对结果无影响 3.Fx(x)或fx(x)中含未知数，求未知数) 4.求分布律 5.已知含有未知数的分布列，求未知数 3.一维随机变量的函数1.已知X分布列，">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/GsDEXd9o2km8Ztg.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/ymBE2wfzspo4g3R.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/27/eVpUAfEBNsmPYvL.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/27/ZG8OkY1LvFuKCDR.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/27/rPnGT8KJh9imgYf.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/27/zF6vyA4HO1I2BPq.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/27/HmYDn9qy5xzXPJ6.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/27/fsTKVSkMtzUelD8.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/27/HzV9NfWdRmj4Ie2.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/27/TtjYH51Uo3Iei8A.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/27/I4QUwi9nrjcATkb.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/qY4U12nS7MRtFPo.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/h4Mzfe5uJ2kHsRY.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/fejVL6lshPFzxQ1.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/HBYQjlMryOdEGsc.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/rKFdczlnQ1EgGs7.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/5m6hF3URnjKqWCt.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/UbshwqEVDPrkjzY.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/6juEQaK3GThRgv8.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/XRazZIW4CJhSFHV.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/LCJ2qSKoVXG6R7n.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/1lP5tTJKxFXfz7L.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/cn8zYACpbvwaE2j.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/A7NkzvwaLd4tPMm.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/Bs7p3l46AqHNe8m.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/aakqaj/pic/master/img/20200528112038.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/EQG7C4d28mV9UDv.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/HofRBhCMyaw8uNe.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/hQZc58NoBtqXfYm.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/4vjq7SR9JwXtBnC.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/N72JKRQsM1u4nU8.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/49tcCSLYgWyIuaE.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/sM9RwVp5QhBNUdP.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/3kDEry1JXMfQFsg.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/L13osAVtkExTczO.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/SvZCaiJu5xGArs7.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/f2cs6dlGmPCnzLi.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/U1bjpV7tykhCRP8.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/ifCK4hmxbsYR3Wg.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/JAoBIHezM2s6lx8.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/ea4tfEGiA2qcjup.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/4uJtULvfD91NAyX.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/7CiVj416l3ZfqM9.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/pSi4OJowmAN51uU.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/7iGpxr4bfRuKMgs.png">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528095311.png?raw=true">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/P4iFtcZ7rdofWgm.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/RvoUIkdXNSOg1YW.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/N5urbDEVkPWaSxR.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/7I3gUrHdnKWStVO.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/dcl2FEqf15z4nXR.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/9za2hqUAlNnQrWP.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/ZPb497zUtOETH3f.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/gG4uHPaBp3QxYD9.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/nY6B3UoNsvjiRc2.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/QoaAtIWZMcNO5bP.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/GCHXwiJMNxeEypb.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/PqzhmYGwAdOsyi6.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/yJxPK7DdjAn3rQ6.png">
+<meta property="og:image" content="https://i.loli.net/2020/05/28/Keiy8v4w3CdmPar.png">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528104312.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528104449.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528104842.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/Snipaste_2020-05-28_10-50-06.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528105343.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528105645.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528105926.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528110329.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528110521.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528110739.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528110957.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528111416.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528112325.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528112629.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528113016.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528113559.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/Snipaste_2020-05-28_11-38-50.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/Snipaste_2020-05-28_11-41-53.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528114744.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528114621.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528114914.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/Snipaste_2020-05-28_12-00-48.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528115915.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528115545.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528120330.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528120622.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528120807.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528121122.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528121321.png?raw=true">
+<meta property="og:image" content="https://github.com/aakqaj/pic/blob/master/img/20200528121447.png?raw=true">
+<meta property="article:published_time" content="2020-05-28T04:16:44.000Z">
+<meta property="article:modified_time" content="2020-05-28T04:18:37.295Z">
+<meta property="article:author" content="LiuSama">
+<meta property="article:tag" content="复习">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2020/05/28/GsDEXd9o2km8Ztg.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/blog/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2020/05/28/概论复习/"/>
+
+
+
+
+
+  <title>概论复习 | 懒狗起来学习了</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/blog/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">懒狗起来学习了</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/blog/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/blog/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/blog/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/blog/2020/05/28/%E6%A6%82%E8%AE%BA%E5%A4%8D%E4%B9%A0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="LiuSama">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/blog/images/test.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="懒狗起来学习了">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">概论复习</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-05-28T12:16:44+08:00">
+                2020-05-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/blog/categories/%E6%A6%82%E8%AE%BA/" itemprop="url" rel="index">
+                    <span itemprop="name">概论</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/2020/05/28/%E6%A6%82%E8%AE%BA%E5%A4%8D%E4%B9%A0/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/blog/2020/05/28/%E6%A6%82%E8%AE%BA%E5%A4%8D%E4%B9%A0/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv">本文阅读量 <i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  700
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  2
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="1-事件的概率"><a href="#1-事件的概率" class="headerlink" title="1.事件的概率"></a>1.事件的概率</h1><h2 id="1-无放回"><a href="#1-无放回" class="headerlink" title="1.无放回"></a>1.无放回</h2><p><img src="https://i.loli.net/2020/05/28/GsDEXd9o2km8Ztg.png" alt="img">)<img src="https://i.loli.net/2020/05/28/ymBE2wfzspo4g3R.png" alt="img"></p>
+<h2 id="2-有放回"><a href="#2-有放回" class="headerlink" title="2.有放回"></a>2.有放回</h2><p><img src="https://i.loli.net/2020/05/27/eVpUAfEBNsmPYvL.png" alt="image.png"></p>
+<h2 id="3-画图类"><a href="#3-画图类" class="headerlink" title="3.画图类"></a>3.画图类</h2><p><img src="https://i.loli.net/2020/05/27/ZG8OkY1LvFuKCDR.png" alt="image.png"></p>
+<h2 id="4-条件概率"><a href="#4-条件概率" class="headerlink" title="4.条件概率"></a>4.条件概率</h2><p><img src="https://i.loli.net/2020/05/27/rPnGT8KJh9imgYf.png" alt="image.png"></p>
+<hr>
+<p><img src="https://i.loli.net/2020/05/27/zF6vyA4HO1I2BPq.png" alt="image.png"></p>
+<hr>
+<p><img src="https://i.loli.net/2020/05/27/HmYDn9qy5xzXPJ6.png" alt="image.png">)<img src="https://i.loli.net/2020/05/27/fsTKVSkMtzUelD8.png" alt="image.png"></p>
+<h2 id="5-全概率公式"><a href="#5-全概率公式" class="headerlink" title="5.全概率公式"></a>5.全概率公式</h2><p><img src="https://i.loli.net/2020/05/27/HzV9NfWdRmj4Ie2.png" alt="image.png"></p>
+<h2 id="6-贝叶斯公式"><a href="#6-贝叶斯公式" class="headerlink" title="6.贝叶斯公式"></a>6.贝叶斯公式</h2><p><img src="https://i.loli.net/2020/05/27/TtjYH51Uo3Iei8A.png" alt="image.png"></p>
+<h1 id="2-一维随机变量"><a href="#2-一维随机变量" class="headerlink" title="2.一维随机变量"></a>2.一维随机变量</h1><h2 id="1-已知Fx-x-与fx-x-中的一项，求另一项"><a href="#1-已知Fx-x-与fx-x-中的一项，求另一项" class="headerlink" title="1.已知Fx(x)与fx(x)中的一项，求另一项"></a>1.已知Fx(x)与fx(x)中的一项，求另一项</h2><h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://i.loli.net/2020/05/27/I4QUwi9nrjcATkb.png" alt="img"></h2><p><img src="https://i.loli.net/2020/05/28/qY4U12nS7MRtFPo.png" alt="image.png">)<img src="https://i.loli.net/2020/05/28/h4Mzfe5uJ2kHsRY.png" alt="image.png"></p>
+<h2 id="2-已知Fx-x-与fx-x-中的一种，求P"><a href="#2-已知Fx-x-与fx-x-中的一种，求P" class="headerlink" title="2.已知Fx(x)与fx(x)中的一种，求P"></a>2.已知Fx(x)与fx(x)中的一种，求P</h2><p><img src="https://i.loli.net/2020/05/28/fejVL6lshPFzxQ1.png" alt="img">)<img src="https://i.loli.net/2020/05/28/HBYQjlMryOdEGsc.png" alt="img"></p>
+<p><strong><em>对于a，b取不取等号对结果无影响</em></strong></p>
+<h2 id="3-Fx-x-或fx-x-中含未知数，求未知数"><a href="#3-Fx-x-或fx-x-中含未知数，求未知数" class="headerlink" title="3.Fx(x)或fx(x)中含未知数，求未知数"></a>3.Fx(x)或fx(x)中含未知数，求未知数</h2><p><img src="https://i.loli.net/2020/05/28/rKFdczlnQ1EgGs7.png" alt="img">)<img src="https://i.loli.net/2020/05/28/5m6hF3URnjKqWCt.png" alt="img"></p>
+<h2 id="4-求分布律"><a href="#4-求分布律" class="headerlink" title="4.求分布律"></a>4.求分布律</h2><p><img src="https://i.loli.net/2020/05/28/UbshwqEVDPrkjzY.png" alt="img"></p>
+<h2 id="5-已知含有未知数的分布列，求未知数"><a href="#5-已知含有未知数的分布列，求未知数" class="headerlink" title="5.已知含有未知数的分布列，求未知数"></a>5.已知含有未知数的分布列，求未知数</h2><p><img src="https://i.loli.net/2020/05/28/6juEQaK3GThRgv8.png" alt="img"></p>
+<h1 id="3-一维随机变量的函数"><a href="#3-一维随机变量的函数" class="headerlink" title="3.一维随机变量的函数"></a>3.一维随机变量的函数</h1><h2 id="1-已知X分布列，求Y分布列"><a href="#1-已知X分布列，求Y分布列" class="headerlink" title="1.已知X分布列，求Y分布列"></a>1.已知X分布列，求Y分布列</h2><p><img src="https://i.loli.net/2020/05/28/XRazZIW4CJhSFHV.png" alt="img"></p>
+<p><img src="https://i.loli.net/2020/05/28/LCJ2qSKoVXG6R7n.png" alt="img"></p>
+<h2 id="2-已知Fx-x-求FY-y"><a href="#2-已知Fx-x-求FY-y" class="headerlink" title="2.已知Fx(x)求FY(y)"></a>2.已知Fx(x)求FY(y)</h2><p><img src="https://i.loli.net/2020/05/28/1lP5tTJKxFXfz7L.png" alt="img">)<img src="https://i.loli.net/2020/05/28/cn8zYACpbvwaE2j.png" alt="img"></p>
+<h2 id="3-已知fx-x-求fY-y"><a href="#3-已知fx-x-求fY-y" class="headerlink" title="3.已知fx(x),求fY(y)"></a>3.已知fx(x),求fY(y)</h2><p><img src="https://i.loli.net/2020/05/28/A7NkzvwaLd4tPMm.png" alt="img"></p>
+<h1 id="4-常见五种分布"><a href="#4-常见五种分布" class="headerlink" title="4.常见五种分布"></a>4.常见五种分布</h1><p><img src="https://i.loli.net/2020/05/28/Bs7p3l46AqHNe8m.png" alt="img"></p>
+<p><img src="https://raw.githubusercontent.com/aakqaj/pic/master/img/20200528112038.png" alt="img"></p>
+<h2 id="1-符合均匀分布，求概率"><a href="#1-符合均匀分布，求概率" class="headerlink" title="1.符合均匀分布，求概率"></a>1.符合均匀分布，求概率</h2><p><img src="https://i.loli.net/2020/05/28/EQG7C4d28mV9UDv.png" alt="img"></p>
+<h2 id="2-符合泊松分布，求概率"><a href="#2-符合泊松分布，求概率" class="headerlink" title="2.符合泊松分布，求概率"></a>2.符合泊松分布，求概率</h2><h2 id="-1"><a href="#-1" class="headerlink" title=")"></a><img src="https://i.loli.net/2020/05/28/HofRBhCMyaw8uNe.png" alt="img">)<img src="https://i.loli.net/2020/05/28/hQZc58NoBtqXfYm.png" alt="img"></h2><h2 id="3-符合二项分布，求概率"><a href="#3-符合二项分布，求概率" class="headerlink" title="3.符合二项分布，求概率"></a>3.符合二项分布，求概率</h2><h2 id="-2"><a href="#-2" class="headerlink" title=""></a><img src="https://i.loli.net/2020/05/28/4vjq7SR9JwXtBnC.png" alt="img"></h2><h2 id="4-符合指数分布，求概率"><a href="#4-符合指数分布，求概率" class="headerlink" title="4.符合指数分布，求概率"></a>4.符合指数分布，求概率</h2><p><img src="https://i.loli.net/2020/05/28/N72JKRQsM1u4nU8.png" alt="img"></p>
+<h2 id="5-符合正态分布，求概率"><a href="#5-符合正态分布，求概率" class="headerlink" title="5.符合正态分布，求概率"></a>5.符合正态分布，求概率</h2><p><img src="https://i.loli.net/2020/05/28/49tcCSLYgWyIuaE.png" alt="img"></p>
+<p><strong><em>若X服从标准正态分布，N（0，1）</em></strong></p>
+<h2 id="6-正态分布图像"><a href="#6-正态分布图像" class="headerlink" title="6.正态分布图像"></a>6.正态分布图像</h2><p><img src="https://i.loli.net/2020/05/28/sM9RwVp5QhBNUdP.png" alt="img">)<img src="https://i.loli.net/2020/05/28/3kDEry1JXMfQFsg.png" alt="img">)<img src="https://i.loli.net/2020/05/28/L13osAVtkExTczO.png" alt="img"></p>
+<h1 id="5-离散型二维变量与连续型二维变量上"><a href="#5-离散型二维变量与连续型二维变量上" class="headerlink" title="5. 离散型二维变量与连续型二维变量上"></a>5. 离散型二维变量与连续型二维变量上</h1><h2 id="1-已知二维离散型分布律，求？？？"><a href="#1-已知二维离散型分布律，求？？？" class="headerlink" title="1.已知二维离散型分布律，求？？？"></a>1.已知二维离散型分布律，求？？？</h2><p><img src="https://i.loli.net/2020/05/28/SvZCaiJu5xGArs7.png" alt="img"></p>
+<h2 id="2-已知二维离散型分布律，判断独立性"><a href="#2-已知二维离散型分布律，判断独立性" class="headerlink" title="2.已知二维离散型分布律，判断独立性"></a>2.已知二维离散型分布律，判断独立性</h2><p><img src="https://i.loli.net/2020/05/28/f2cs6dlGmPCnzLi.png" alt="img">)<img src="https://i.loli.net/2020/05/28/U1bjpV7tykhCRP8.png" alt="img"></p>
+<h2 id="3-已知F-x-y-求f-x-y"><a href="#3-已知F-x-y-求f-x-y" class="headerlink" title="3.已知F(x,y)求f(x,y)"></a>3.已知F(x,y)求f(x,y)</h2><p><img src="https://i.loli.net/2020/05/28/ifCK4hmxbsYR3Wg.png" alt="img"></p>
+<h2 id="4-已知f-x-y-求F-x-y"><a href="#4-已知f-x-y-求F-x-y" class="headerlink" title="4.已知f(x,y)求F(x,y)"></a>4.已知f(x,y)求F(x,y)</h2><p><img src="https://i.loli.net/2020/05/28/JAoBIHezM2s6lx8.png" alt="img">)<img src="https://i.loli.net/2020/05/28/ea4tfEGiA2qcjup.png" alt="img">)<img src="https://i.loli.net/2020/05/28/4uJtULvfD91NAyX.png" alt="img"></p>
+<hr>
+<p><img src="https://i.loli.net/2020/05/28/7CiVj416l3ZfqM9.png" alt="img">)<img src="https://i.loli.net/2020/05/28/pSi4OJowmAN51uU.png" alt="img"></p>
+<h2 id="5-已知F-x-y-求P"><a href="#5-已知F-x-y-求P" class="headerlink" title="5.已知F(x,y)求P"></a>5.已知F(x,y)求P</h2><p><img src="https://i.loli.net/2020/05/28/7iGpxr4bfRuKMgs.png" alt="img">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528095311.png?raw=true" alt="20200528095311.png"></p>
+<h2 id="6-已知f-x-y-求P"><a href="#6-已知f-x-y-求P" class="headerlink" title="6.已知f(x,y)求P"></a>6.已知f(x,y)求P</h2><p><img src="https://i.loli.net/2020/05/28/P4iFtcZ7rdofWgm.png" alt="img">)<img src="https://i.loli.net/2020/05/28/RvoUIkdXNSOg1YW.png" alt="img"></p>
+<h2 id="7-求F-x-y-或f-x-y-中含有的未知数"><a href="#7-求F-x-y-或f-x-y-中含有的未知数" class="headerlink" title="7.求F(x,y)或f(x,y)中含有的未知数"></a>7.求F(x,y)或f(x,y)中含有的未知数</h2><p><img src="https://i.loli.net/2020/05/28/N5urbDEVkPWaSxR.png" alt="img">)<img src="https://i.loli.net/2020/05/28/7I3gUrHdnKWStVO.png" alt="img"></p>
+<h2 id="8-求均匀分布的f-x-y-与P"><a href="#8-求均匀分布的f-x-y-与P" class="headerlink" title="8.求均匀分布的f(x,y)与P"></a>8.求均匀分布的f(x,y)与P</h2><p><img src="https://i.loli.net/2020/05/28/dcl2FEqf15z4nXR.png" alt="img"></p>
+<h1 id="6-连续二维随机变量下"><a href="#6-连续二维随机变量下" class="headerlink" title="6.连续二维随机变量下"></a>6.连续二维随机变量下</h1><h2 id="1-求边缘分布函数，求Fx-x-FY-y"><a href="#1-求边缘分布函数，求Fx-x-FY-y" class="headerlink" title="1.求边缘分布函数，求Fx(x),FY(y)"></a>1.求边缘分布函数，求Fx(x),FY(y)</h2><p><img src="https://i.loli.net/2020/05/28/9za2hqUAlNnQrWP.png" alt="img"></p>
+<h2 id="2-求边缘密度函数-求fx-x-fY-y"><a href="#2-求边缘密度函数-求fx-x-fY-y" class="headerlink" title="2.求边缘密度函数,求fx(x),fY(y)"></a>2.求边缘密度函数,求fx(x),fY(y)</h2><p><img src="https://i.loli.net/2020/05/28/ZPb497zUtOETH3f.png" alt="img"></p>
+<h2 id="3-判断二维连续变量的独立性"><a href="#3-判断二维连续变量的独立性" class="headerlink" title="3.判断二维连续变量的独立性"></a>3.判断二维连续变量的独立性</h2><p><img src="https://i.loli.net/2020/05/28/gG4uHPaBp3QxYD9.png" alt="img"></p>
+<h2 id="4-已知f-x-y-Z-X-Y-求fZ-z"><a href="#4-已知f-x-y-Z-X-Y-求fZ-z" class="headerlink" title="4.已知f(x,y),Z=X+Y,求fZ(z)"></a>4.已知f(x,y),Z=X+Y,求fZ(z)</h2><p><img src="https://i.loli.net/2020/05/28/nY6B3UoNsvjiRc2.png" alt="img"></p>
+<h2 id="5-已知f-x-y-Z-X-Y-求fZ-z"><a href="#5-已知f-x-y-Z-X-Y-求fZ-z" class="headerlink" title="5.已知f(x,y),Z=X/Y,求fZ(z)"></a>5.已知f(x,y),Z=X/Y,求fZ(z)</h2><p><img src="https://i.loli.net/2020/05/28/QoaAtIWZMcNO5bP.png" alt="img"></p>
+<h2 id="6-已知F，且X-Y相互独立，Z-max-X-Y-求Fz-z"><a href="#6-已知F，且X-Y相互独立，Z-max-X-Y-求Fz-z" class="headerlink" title="6.已知F，且X,Y相互独立，Z=max(X,Y),求Fz(z)"></a>6.已知F，且X,Y相互独立，Z=max(X,Y),求Fz(z)</h2><p><img src="https://i.loli.net/2020/05/28/GCHXwiJMNxeEypb.png" alt="img"></p>
+<h2 id="7-已知F，且X-Y相互独立，Z-min-X-Y-求Fz-z"><a href="#7-已知F，且X-Y相互独立，Z-min-X-Y-求Fz-z" class="headerlink" title="7.已知F，且X,Y相互独立，Z=min(X,Y),求Fz(z)"></a>7.已知F，且X,Y相互独立，Z=min(X,Y),求Fz(z)</h2><h2 id="-3"><a href="#-3" class="headerlink" title=""></a><img src="https://i.loli.net/2020/05/28/PqzhmYGwAdOsyi6.png" alt="img"></h2><h1 id="7-随机变量的数组特征与中心极限定理"><a href="#7-随机变量的数组特征与中心极限定理" class="headerlink" title="7.随机变量的数组特征与中心极限定理"></a>7.随机变量的数组特征与中心极限定理</h1><h2 id="1-求离散型的期望E-x"><a href="#1-求离散型的期望E-x" class="headerlink" title="1.求离散型的期望E(x)"></a>1.求离散型的期望E(x)</h2><p><img src="https://i.loli.net/2020/05/28/yJxPK7DdjAn3rQ6.png" alt="img"></p>
+<h2 id="2-求连续型的期望E-x"><a href="#2-求连续型的期望E-x" class="headerlink" title="2..求连续型的期望E(x)"></a>2..求连续型的期望E(x)</h2><h2 id="-4"><a href="#-4" class="headerlink" title=""></a><img src="https://i.loli.net/2020/05/28/Keiy8v4w3CdmPar.png" alt="img"></h2><h2 id="3-已知Y-g-x-求E-Y"><a href="#3-已知Y-g-x-求E-Y" class="headerlink" title="3.已知Y=g(x),求E(Y)"></a>3.已知Y=g(x),求E(Y)</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528104312.png?raw=true" alt="20200528104312.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528104449.png?raw=true" alt="20200528104449.png"></p>
+<h2 id="4-求方差D-X"><a href="#4-求方差D-X" class="headerlink" title="4.求方差D(X)"></a>4.求方差D(X)</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528104842.png?raw=true" alt="20200528104842.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/Snipaste_2020-05-28_10-50-06.png?raw=true" alt="Snipaste_2020-05-28_10-50-06.png"></p>
+<h2 id="5-根据E-X-D-X-的性质进行复杂运算"><a href="#5-根据E-X-D-X-的性质进行复杂运算" class="headerlink" title="5.根据E(X),D(X)的性质进行复杂运算"></a>5.根据E(X),D(X)的性质进行复杂运算</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528105343.png?raw=true" alt="20200528105343.png"></p>
+<h2 id="6-E-x-D-X-与各种分布的综合题"><a href="#6-E-x-D-X-与各种分布的综合题" class="headerlink" title="6.E(x),D(X)与各种分布的综合题"></a>6.E(x),D(X)与各种分布的综合题</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528105645.png?raw=true" alt="20200528105645.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528105926.png?raw=true" alt="20200528105926.png"></p>
+<h2 id="1-Cov-Pxy-D相关题目"><a href="#1-Cov-Pxy-D相关题目" class="headerlink" title="_1.Cov,Pxy,D相关题目"></a>_1.Cov,Pxy,D相关题目</h2><p> <img src="https://github.com/aakqaj/pic/blob/master/img/20200528110329.png?raw=true" alt="20200528110329.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528110521.png?raw=true" alt="20200528110521.png"></p>
+<h2 id="2-利用切比雪夫不等式求概率"><a href="#2-利用切比雪夫不等式求概率" class="headerlink" title="_2.利用切比雪夫不等式求概率"></a>_2.利用切比雪夫不等式求概率</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528110739.png?raw=true" alt="20200528110739.png"></p>
+<h2 id="3-多项独立同分布，求总和概率"><a href="#3-多项独立同分布，求总和概率" class="headerlink" title="_3.多项独立同分布，求总和概率"></a>_3.多项独立同分布，求总和概率</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528110957.png?raw=true" alt="20200528110957.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528111416.png?raw=true" alt="20200528111416.png"></p>
+<h1 id="8-用矩阵估计法进行点估计"><a href="#8-用矩阵估计法进行点估计" class="headerlink" title="8.用矩阵估计法进行点估计"></a>8.用矩阵估计法进行点估计</h1><h2 id="1-求某一未知参数的矩估计"><a href="#1-求某一未知参数的矩估计" class="headerlink" title="1.求某一未知参数的矩估计"></a>1.求某一未知参数的矩估计</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528112325.png?raw=true" alt="20200528112325.png"></p>
+<p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528112629.png?raw=true" alt="20200528112629.png"></p>
+<h2 id="2-求两个未知参数的矩估计"><a href="#2-求两个未知参数的矩估计" class="headerlink" title="2.求两个未知参数的矩估计"></a>2.求两个未知参数的矩估计</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528113016.png?raw=true" alt="20200528113016.png"></p>
+<h1 id="9-用最大似然估计法进行点估计"><a href="#9-用最大似然估计法进行点估计" class="headerlink" title="9.用最大似然估计法进行点估计"></a>9.用最大似然估计法进行点估计</h1><h2 id="1-求出某离散型参数最大似然估计量"><a href="#1-求出某离散型参数最大似然估计量" class="headerlink" title="1.求出某离散型参数最大似然估计量"></a>1.求出某离散型参数最大似然估计量</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528113559.png?raw=true" alt="20200528113559.png"></p>
+<h2 id="2-求出某连续性参数最大似然估计量"><a href="#2-求出某连续性参数最大似然估计量" class="headerlink" title="2.求出某连续性参数最大似然估计量"></a>2.求出某连续性参数最大似然估计量</h2><h2 id="-5"><a href="#-5" class="headerlink" title=""></a><img src="https://github.com/aakqaj/pic/blob/master/img/Snipaste_2020-05-28_11-38-50.png?raw=true" alt="Snipaste_2020-05-28_11-38-50.png"></h2><h1 id="10-区间估计"><a href="#10-区间估计" class="headerlink" title="10.区间估计"></a>10.区间估计</h1><p><img src="https://github.com/aakqaj/pic/blob/master/img/Snipaste_2020-05-28_11-41-53.png?raw=true" alt="Snipaste_2020-05-28_11-41-53.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528114744.png?raw=true" alt="20200528114744.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528114621.png?raw=true" alt="20200528114621.png"></p>
+<h1 id="11-假设检验"><a href="#11-假设检验" class="headerlink" title="11.假设检验"></a>11.假设检验</h1><h2 id="1-判断单项参数与某数值关系"><a href="#1-判断单项参数与某数值关系" class="headerlink" title="1.判断单项参数与某数值关系"></a>1.判断单项参数与某数值关系</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528114914.png?raw=true" alt="20200528114914.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/Snipaste_2020-05-28_12-00-48.png?raw=true" alt="Snipaste_2020-05-28_12-00-48.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528115915.png?raw=true" alt="20200528115915.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528115545.png?raw=true" alt="20200528115545.png"></p>
+<h2 id="2-判断两项参数间关系"><a href="#2-判断两项参数间关系" class="headerlink" title="2.判断两项参数间关系"></a>2.判断两项参数间关系</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528120330.png?raw=true" alt="20200528120330.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528120622.png?raw=true" alt="20200528120622.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528120807.png?raw=true" alt="20200528120807.png"></p>
+<h2 id="3-1-对成对数据检验"><a href="#3-1-对成对数据检验" class="headerlink" title="3_1.对成对数据检验"></a>3_1.对成对数据检验</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528121122.png?raw=true" alt="20200528121122.png"></p>
+<h2 id="3-2-P值检验"><a href="#3-2-P值检验" class="headerlink" title="3_2.P值检验"></a>3_2.P值检验</h2><p><img src="https://github.com/aakqaj/pic/blob/master/img/20200528121321.png?raw=true" alt="20200528121321.png">)<img src="https://github.com/aakqaj/pic/blob/master/img/20200528121447.png?raw=true" alt="20200528121447.png"></p>
+
+      
+    </div>
+    
+    
+    
+
+   
+
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/blog/tags/%E5%A4%8D%E4%B9%A0/" rel="tag"><i class="fa fa-google"></i> 复习</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blog/2020/05/11/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/" rel="next" title="Linux基础命令">
+                <i class="fa fa-chevron-left"></i> Linux基础命令
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/blog/images/test.png"
+                alt="LiuSama" />
+            
+              <p class="site-author-name" itemprop="name">LiuSama</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/blog/archives">
+              
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/blog/categories/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/blog/tags/index.html">
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/aakqaj/" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.youtube.com/channel/UCWLgg79AZ0HNQhzjF9maHKw/featured?view_as=subscriber" target="_blank" title="YouTube">
+                      
+                        <i class="fa fa-fw fa-youtube"></i>YouTube</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://space.bilibili.com/101011170" target="_blank" title="Bilibili">
+                      
+                        <i class="fa fa-fw fa-bilibili"></i>Bilibili</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-事件的概率"><span class="nav-text">1.事件的概率</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-无放回"><span class="nav-text">1.无放回</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-有放回"><span class="nav-text">2.有放回</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-画图类"><span class="nav-text">3.画图类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-条件概率"><span class="nav-text">4.条件概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-全概率公式"><span class="nav-text">5.全概率公式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-贝叶斯公式"><span class="nav-text">6.贝叶斯公式</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-一维随机变量"><span class="nav-text">2.一维随机变量</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-已知Fx-x-与fx-x-中的一项，求另一项"><span class="nav-text">1.已知Fx(x)与fx(x)中的一项，求另一项</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-text"></span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-已知Fx-x-与fx-x-中的一种，求P"><span class="nav-text">2.已知Fx(x)与fx(x)中的一种，求P</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-Fx-x-或fx-x-中含未知数，求未知数"><span class="nav-text">3.Fx(x)或fx(x)中含未知数，求未知数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-求分布律"><span class="nav-text">4.求分布律</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-已知含有未知数的分布列，求未知数"><span class="nav-text">5.已知含有未知数的分布列，求未知数</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-一维随机变量的函数"><span class="nav-text">3.一维随机变量的函数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-已知X分布列，求Y分布列"><span class="nav-text">1.已知X分布列，求Y分布列</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-已知Fx-x-求FY-y"><span class="nav-text">2.已知Fx(x)求FY(y)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-已知fx-x-求fY-y"><span class="nav-text">3.已知fx(x),求fY(y)</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-常见五种分布"><span class="nav-text">4.常见五种分布</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-符合均匀分布，求概率"><span class="nav-text">1.符合均匀分布，求概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-符合泊松分布，求概率"><span class="nav-text">2.符合泊松分布，求概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#-1"><span class="nav-text">)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-符合二项分布，求概率"><span class="nav-text">3.符合二项分布，求概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#-2"><span class="nav-text"></span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-符合指数分布，求概率"><span class="nav-text">4.符合指数分布，求概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-符合正态分布，求概率"><span class="nav-text">5.符合正态分布，求概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-正态分布图像"><span class="nav-text">6.正态分布图像</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-离散型二维变量与连续型二维变量上"><span class="nav-text">5. 离散型二维变量与连续型二维变量上</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-已知二维离散型分布律，求？？？"><span class="nav-text">1.已知二维离散型分布律，求？？？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-已知二维离散型分布律，判断独立性"><span class="nav-text">2.已知二维离散型分布律，判断独立性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-已知F-x-y-求f-x-y"><span class="nav-text">3.已知F(x,y)求f(x,y)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-已知f-x-y-求F-x-y"><span class="nav-text">4.已知f(x,y)求F(x,y)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-已知F-x-y-求P"><span class="nav-text">5.已知F(x,y)求P</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-已知f-x-y-求P"><span class="nav-text">6.已知f(x,y)求P</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-求F-x-y-或f-x-y-中含有的未知数"><span class="nav-text">7.求F(x,y)或f(x,y)中含有的未知数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-求均匀分布的f-x-y-与P"><span class="nav-text">8.求均匀分布的f(x,y)与P</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-连续二维随机变量下"><span class="nav-text">6.连续二维随机变量下</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-求边缘分布函数，求Fx-x-FY-y"><span class="nav-text">1.求边缘分布函数，求Fx(x),FY(y)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-求边缘密度函数-求fx-x-fY-y"><span class="nav-text">2.求边缘密度函数,求fx(x),fY(y)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-判断二维连续变量的独立性"><span class="nav-text">3.判断二维连续变量的独立性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-已知f-x-y-Z-X-Y-求fZ-z"><span class="nav-text">4.已知f(x,y),Z&#x3D;X+Y,求fZ(z)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-已知f-x-y-Z-X-Y-求fZ-z"><span class="nav-text">5.已知f(x,y),Z&#x3D;X&#x2F;Y,求fZ(z)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-已知F，且X-Y相互独立，Z-max-X-Y-求Fz-z"><span class="nav-text">6.已知F，且X,Y相互独立，Z&#x3D;max(X,Y),求Fz(z)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-已知F，且X-Y相互独立，Z-min-X-Y-求Fz-z"><span class="nav-text">7.已知F，且X,Y相互独立，Z&#x3D;min(X,Y),求Fz(z)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#-3"><span class="nav-text"></span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7-随机变量的数组特征与中心极限定理"><span class="nav-text">7.随机变量的数组特征与中心极限定理</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-求离散型的期望E-x"><span class="nav-text">1.求离散型的期望E(x)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-求连续型的期望E-x"><span class="nav-text">2..求连续型的期望E(x)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#-4"><span class="nav-text"></span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-已知Y-g-x-求E-Y"><span class="nav-text">3.已知Y&#x3D;g(x),求E(Y)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-求方差D-X"><span class="nav-text">4.求方差D(X)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-根据E-X-D-X-的性质进行复杂运算"><span class="nav-text">5.根据E(X),D(X)的性质进行复杂运算</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-E-x-D-X-与各种分布的综合题"><span class="nav-text">6.E(x),D(X)与各种分布的综合题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Cov-Pxy-D相关题目"><span class="nav-text">_1.Cov,Pxy,D相关题目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-利用切比雪夫不等式求概率"><span class="nav-text">_2.利用切比雪夫不等式求概率</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-多项独立同分布，求总和概率"><span class="nav-text">_3.多项独立同分布，求总和概率</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#8-用矩阵估计法进行点估计"><span class="nav-text">8.用矩阵估计法进行点估计</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-求某一未知参数的矩估计"><span class="nav-text">1.求某一未知参数的矩估计</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-求两个未知参数的矩估计"><span class="nav-text">2.求两个未知参数的矩估计</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#9-用最大似然估计法进行点估计"><span class="nav-text">9.用最大似然估计法进行点估计</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-求出某离散型参数最大似然估计量"><span class="nav-text">1.求出某离散型参数最大似然估计量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-求出某连续性参数最大似然估计量"><span class="nav-text">2.求出某连续性参数最大似然估计量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#-5"><span class="nav-text"></span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#10-区间估计"><span class="nav-text">10.区间估计</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#11-假设检验"><span class="nav-text">11.假设检验</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-判断单项参数与某数值关系"><span class="nav-text">1.判断单项参数与某数值关系</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-判断两项参数间关系"><span class="nav-text">2.判断两项参数间关系</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-1-对成对数据检验"><span class="nav-text">3_1.对成对数据检验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-2-P值检验"><span class="nav-text">3_2.P值检验</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">LiuSama</span>
+
+  
+</div>
+
+<!--
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+-->
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      本站访问数 <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人次
+    </span>
+  
+
+  
+    <span class="site-pv">
+      本站总访问量 <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+  
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/blog/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/blog/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'fLwiI3DTsyJJALd4yH0bTiiK-gzGzoHsz',
+        appKey: 'm3D06BzL1IsdsTBolaqLatvO',
+        placeholder: '来来来，说几句骚话让爷开心开心',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/blog/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+  undefined
+  <script type="text/javascript" src="/js/love.js"></script>
+<script src="/blog/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/blog/live2dw/assets/hibiki.model.json"},"display":{"position":"right","width":150,"height":320,"hOffset":80,"vOffset":-50},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
+</html>
+
