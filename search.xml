@@ -157,7 +157,7 @@
   </entry>
   <entry>
     <title>Linux基础命令</title>
-    <url>/blog/2020/05/11/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/</url>
+    <url>/blog/2020/05/11/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</url>
     <content><![CDATA[<h1 id="一。文件目录操作"><a href="#一。文件目录操作" class="headerlink" title="一。文件目录操作"></a>一。文件目录操作</h1><h2 id="1-ls-选项-目录"><a href="#1-ls-选项-目录" class="headerlink" title="1.ls [选项][目录]"></a>1.ls [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-l ：列出长数据串，包含文件的属性与权限数据等</span><br><span class="line">-a ：列出全部的文件，连同隐藏文件（开头为.的文件）一起列出来（常用）</span><br><span class="line">-d ：仅列出目录本身，而不是列出目录的文件数据</span><br><span class="line">-h ：将文件容量以较易读的方式（GB，kB等）列出来</span><br><span class="line">-R ：连同子目录的内容一起列出（递归列出），等于该目录下的所有文件都会显示出来</span><br></pre></td></tr></table></figure>
 
 
@@ -182,10 +182,61 @@
 
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mv test1.txt test2.txt <span class="comment">#将 test1.txt 重命名为 test2.txt</span></span><br><span class="line">mv test1.txt test2     <span class="comment">#移动文件 test1.txt 到目录 test2</span></span><br><span class="line">mv test1.txt test2.txt test3.txt test3 <span class="comment">#将文件 test1.txt、test2.txt、test3.txt 移动到目录 test3</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>入门学习</category>
+        <category>命令行</category>
       </categories>
       <tags>
-        <tag>命令行</tag>
+        <tag>入门学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CommendLine</title>
+    <url>/blog/2020/06/11/CommendLine/</url>
+    <content><![CDATA[<h1 id="echo"><a href="#echo" class="headerlink" title="echo"></a>echo</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span>  string                                              </span><br><span class="line">        <span class="comment"># 输出字符串</span></span><br><span class="line"><span class="built_in">echo</span>  <span class="variable">$PWD</span>                                       </span><br><span class="line">        <span class="comment">#$为变量 同理亦有PATH ,HOME ...</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="pwd-Print-Working-Directory"><a href="#pwd-Print-Working-Directory" class="headerlink" title="pwd (Print Working Directory)"></a>pwd (Print Working Directory)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">pwd</span>                                                                     </span><br><span class="line">        <span class="comment">#显示当前工作目录</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="ls-List-Directory"><a href="#ls-List-Directory" class="headerlink" title="ls (List Directory)"></a>ls (List Directory)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ls                                                                      </span><br><span class="line">        <span class="comment">#显示该目录下文件</span></span><br><span class="line">ls -l                                                                  </span><br><span class="line">        <span class="comment">#以列表形式显示该目录下文件</span></span><br><span class="line">ls -l -a == -la                                                          </span><br><span class="line">        <span class="comment">#在上述条件下追加隐藏文件</span></span><br><span class="line">ls -lh                                                                  </span><br><span class="line">        <span class="comment">#human，以人易于理解的方式显示件</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="cd-Change-Directory"><a href="#cd-Change-Directory" class="headerlink" title="cd (Change Directory)"></a>cd (Change Directory)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /tmp/<span class="built_in">test</span>    </span><br><span class="line">	    <span class="comment">#以绝对路径跳转</span></span><br><span class="line"><span class="built_in">cd</span> ../1d</span><br><span class="line">		<span class="comment">#以相对路径跳转</span></span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line">		<span class="comment">#返回上级目录</span></span><br><span class="line"><span class="built_in">cd</span> ../.. </span><br><span class="line">		<span class="comment">#返回上两级目录</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">		<span class="comment">#返回家目录</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="mkdir"><a href="#mkdir" class="headerlink" title="mkdir"></a>mkdir</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir newfile</span><br><span class="line">		<span class="comment">#新建文件夹</span></span><br><span class="line">mkdir -p 1/2/3/4/5</span><br><span class="line">		<span class="comment">#新建多级文件夹</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="touch-nano"><a href="#touch-nano" class="headerlink" title="touch /nano"></a>touch /nano</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">touch 1.txt</span><br><span class="line">nano 1.txt</span><br><span class="line">		<span class="comment">#创建名为1.txt的文件</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="rm"><a href="#rm" class="headerlink" title="rm"></a>rm</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rm 1.txt</span><br><span class="line">		<span class="comment">#删除1.txt</span></span><br><span class="line">rm -r 1</span><br><span class="line">		<span class="comment">#删除名为1的文件夹</span></span><br><span class="line">rm -rf 1</span><br><span class="line">		<span class="comment">#强制删除，无需回复</span></span><br><span class="line">linux下删除指定目录结构下的特定文件</span><br><span class="line">find alipay-demo -<span class="built_in">type</span> d -name <span class="string">"__pycache__"</span> -<span class="built_in">exec</span> rm -rf &#123;&#125; \;</span><br><span class="line">1.alipay-demo：为待查询的开始目录，从此目录开始搜索，包括本目录下的子目录</span><br><span class="line">2.-<span class="built_in">type</span> d：文件类型为目录 若目标文件是普通文件，则使用-<span class="built_in">type</span> f</span><br><span class="line">3.-name <span class="string">"__pychche__"</span>：指定待删除的目录名（此处可以使用正则表达式匹配目标文件或目录）:*.*</span><br><span class="line">4.-<span class="built_in">exec</span> rm -rf &#123;&#125; <span class="built_in">exec</span>要执行的命令</span><br><span class="line">* &#123;&#125;与\ 之间需要加空格</span><br></pre></td></tr></table></figure>
+
+<h1 id="复制，剪切命令"><a href="#复制，剪切命令" class="headerlink" title="复制，剪切命令"></a>复制，剪切命令</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cp 1.txt 1_cp.txt</span><br><span class="line">		<span class="comment">#复制1.txt在该目录中并将之命名为1_cp.txt</span></span><br><span class="line">cp 1.txt 绝对/相对路径</span><br><span class="line">		<span class="comment">#将1.txt复制到对应目录</span></span><br><span class="line">cp dir1/a.doc dir2 </span><br><span class="line">		<span class="comment">#表示将dir1下的a.doc文件复制到dir2目录下</span></span><br><span class="line">cp -r dir1 dir2 </span><br><span class="line">		<span class="comment">#表示将dir1及其dir1下所包含的文件复制到dir2下</span></span><br><span class="line">mv 1.txt 2.txt</span><br><span class="line">		<span class="comment">#将1.txt重命名为2.txt，可修改文件夹</span></span><br><span class="line">mv 1.txt 绝对/相对路径</span><br><span class="line">		<span class="comment">#将1.txt剪切到对应目录，可修改文件夹</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="man-Manual-用户手册"><a href="#man-Manual-用户手册" class="headerlink" title="man (Manual | 用户手册)"></a>man (Manual | 用户手册)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">man <span class="built_in">pwd</span></span><br><span class="line">        <span class="comment">#显示pwd的用户手册</span></span><br><span class="line">man man</span><br><span class="line">        <span class="comment">#显示man的用户手册</span></span><br><span class="line">man -h</span><br><span class="line">        <span class="comment">#同上，效果不如</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="cat-Concatenate-and-print-files-打印文件内容"><a href="#cat-Concatenate-and-print-files-打印文件内容" class="headerlink" title="cat (Concatenate and print files | 打印文件内容)"></a>cat (Concatenate and print files | 打印文件内容)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat a.txt -n</span><br><span class="line">        <span class="comment">#打印a.txt的内容 显示行号</span></span><br><span class="line">cat a.txt b.txt</span><br><span class="line">        <span class="comment">#打印a.txt,b.txt内容</span></span><br><span class="line">cat &lt; a.txt</span><br><span class="line">        <span class="comment">#将内容重定向到a.txt中，类似与C++中流提取</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="head-and-tail-打印头尾部"><a href="#head-and-tail-打印头尾部" class="headerlink" title="head and tail (打印头尾部)"></a>head and tail (打印头尾部)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">head a.txt</span><br><span class="line">        <span class="comment">#打印a.txt前5行</span></span><br><span class="line">tail b.txt</span><br><span class="line">        <span class="comment">#打印b.txt后5行</span></span><br><span class="line">tail -n 11 a.txt</span><br><span class="line">        <span class="comment">#打印a.txt后11行</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="less-交互浏览"><a href="#less-交互浏览" class="headerlink" title="less  (交互浏览)"></a>less  (交互浏览)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">less a.txt</span><br><span class="line">        <span class="comment">#交互浏览 输入 /内容 即可查询，观感不如grep</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="grep-查询"><a href="#grep-查询" class="headerlink" title="grep (查询)"></a>grep (查询)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat 1.txt | grep 1 </span><br><span class="line">        <span class="comment">#查询命令 查询 1.txt 有无 1 ，grep -n 可显示行号</span></span><br><span class="line"> grep 1 1.txt</span><br><span class="line"> 		<span class="comment">#同上</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="wc-Word-line-and-byet-Count-显示-行数-单词数-大小"><a href="#wc-Word-line-and-byet-Count-显示-行数-单词数-大小" class="headerlink" title="wc (Word ,line and byet Count | 显示 行数 单词数 大小)"></a>wc (Word ,line and byet Count | 显示 行数 单词数 大小)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">man wc | wc</span><br><span class="line">		<span class="comment">#显示 行数 单词数 大小</span></span><br><span class="line">cat a.txt | wc</span><br></pre></td></tr></table></figure>
+
+<h1 id="chmod-Change-Mode-更改文件权限"><a href="#chmod-Change-Mode-更改文件权限" class="headerlink" title="chmod (Change Mode | 更改文件权限)"></a>chmod (Change Mode | 更改文件权限)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">chmod 777 文件名</span><br><span class="line">		<span class="comment">#赋予文件最高权限</span></span><br><span class="line">chmode +x 文件名</span><br><span class="line">		<span class="comment">#增加可执行权限 / +w +r</span></span><br><span class="line">chmode -x 文件名</span><br><span class="line">		<span class="comment">#移除可执行权限 / -w -r</span></span><br><span class="line">chmode 740 文件名</span><br><span class="line">		<span class="comment">#把文件权限设置改为 740</span></span><br><span class="line">		Owner:  7 = 1 + 2 + 4 = 可执行 + 可写 + 可读</span><br><span class="line">		Group:  4 = 4 = k可读</span><br><span class="line">		Others: 0 = 没有任何权限</span><br><span class="line">		常见: </span><br><span class="line">		644 -rw-r--r-- <span class="comment"># default</span></span><br><span class="line">		755 -rwxr-xr-x</span><br><span class="line">		777 -rwxrwxrwx <span class="comment">#没事别乱用</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="软件操作"><a href="#软件操作" class="headerlink" title="软件操作"></a>软件操作</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo deb dpkj -i *.deb <span class="comment">#*为文件名</span></span><br><span class="line">		<span class="comment">#安装软件</span></span><br><span class="line">dpkj -l | grep *</span><br><span class="line">		<span class="comment">#查找软件</span></span><br><span class="line">sudo dpkj -r *</span><br><span class="line">		<span class="comment">#卸载软件</span></span><br><span class="line">sudo dpkj -P *</span><br><span class="line">		<span class="comment">#卸载软件的配置文件</span></span><br><span class="line">sudo apt-get install + 软件名称</span><br><span class="line">		<span class="comment">#搜索并安装软件</span></span><br><span class="line">sudo apt update</span><br><span class="line">		<span class="comment">#更新配置，大多数安装前都要运行下</span></span><br><span class="line">sudo apt upgrade</span><br><span class="line">		<span class="comment">#没事就运行下</span></span><br><span class="line">sudo apt remove + 软件名称</span><br><span class="line">		<span class="comment">#移除软件包</span></span><br><span class="line">sudo apt purge + 软件名称</span><br><span class="line">		<span class="comment">#清除配置文件</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="重定向和管道"><a href="#重定向和管道" class="headerlink" title="重定向和管道"></a>重定向和管道</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1. 重定向: 改变输入输出设备</span><br><span class="line"><span class="built_in">echo</span> hello &gt; hello.txt</span><br><span class="line">		<span class="comment">#输入hello到hello.txt中</span></span><br><span class="line"><span class="built_in">echo</span> world &gt;&gt; hello.txt</span><br><span class="line">		<span class="comment">#输入world到hello.txt中紧接文章末尾且换行，避免被覆盖</span></span><br><span class="line">2.管道:将前一个命令的标准输入作为下一个程序的标准输出</span><br><span class="line">man less | grep sim | grep -n that &gt;that.txt</span><br><span class="line">cat class  | grep 3 | grep 4 -n</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>命令行</category>
+      </categories>
+      <tags>
+        <tag>入门学习</tag>
       </tags>
   </entry>
   <entry>
