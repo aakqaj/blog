@@ -189,6 +189,338 @@
       </tags>
   </entry>
   <entry>
+    <title>Vim命令</title>
+    <url>/blog/2020/07/09/Vim%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="1-一般命令模式"><a href="#1-一般命令模式" class="headerlink" title="1.一般命令模式"></a><strong>1.一般命令模式</strong></h1><h2 id="1-移动光标"><a href="#1-移动光标" class="headerlink" title="1.移动光标"></a>1.移动光标</h2><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">h或向左方向键(←)</td>
+<td align="center">光标向左移动一个字符</td>
+</tr>
+<tr>
+<td align="center">j 或向下方向键(↓)</td>
+<td align="center">光标向下移动一个字符</td>
+</tr>
+<tr>
+<td align="center">k 或向上方向键(↑)</td>
+<td align="center">光标向上移动一个字符</td>
+</tr>
+<tr>
+<td align="center">l 或向右方向键(→)</td>
+<td align="center">光标向右移动一个字符</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<p>如果想要进行多次移动的话，例如向下移动30 列，可以使用”30j” 或”30↓” 的组合按键， 亦即加上想要进行的次数(数字)后，按下动作即可！</p>
+<table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">[Ctrl] + [f]</td>
+<td align="center">屏幕『向下』移动一页，相当于[Page Down]按键( 常用 )</td>
+</tr>
+<tr>
+<td align="center">[Ctrl] + [b]</td>
+<td align="center">屏幕『向上』移动一页，相当于[Page Up]按键( 常用 )</td>
+</tr>
+<tr>
+<td align="center">[Ctrl] + [d]</td>
+<td align="center">屏幕『向下』移动半页</td>
+</tr>
+<tr>
+<td align="center">[Ctrl] + [u]</td>
+<td align="center">屏幕『向上』移动半页</td>
+</tr>
+<tr>
+<td align="center">+</td>
+<td align="center">光标移动到非空白字符的下一列</td>
+</tr>
+<tr>
+<td align="center">-</td>
+<td align="center">光标移动到非空白字符的上一列</td>
+</tr>
+<tr>
+<td align="center">0或Home</td>
+<td align="center">这是数字『 0 』：移动到这一列的最前面字符处( 常用 )</td>
+</tr>
+<tr>
+<td align="center">$ 或功能键[End]</td>
+<td align="center">移动到这一列的最后面字符处( 常用 )</td>
+</tr>
+<tr>
+<td align="center">H</td>
+<td align="center">光标移动到这个屏幕的最上方那一列的第一个字符</td>
+</tr>
+<tr>
+<td align="center">M</td>
+<td align="center">光标移动到这个屏幕的中央那一列的第一个字符</td>
+</tr>
+<tr>
+<td align="center">L</td>
+<td align="center">光标移动到这个屏幕的最下方那一列的第一个字符</td>
+</tr>
+<tr>
+<td align="center">G</td>
+<td align="center">移动到这个文件的最后一列( 常用 )</td>
+</tr>
+<tr>
+<td align="center">nG</td>
+<td align="center">n 为数字。移动到这个文件的第n 列。例如20G 则会移动到这个文件的第20 列</td>
+</tr>
+<tr>
+<td align="center">gg</td>
+<td align="center">移动到这个文件的第一列，相当于1G啊！( 常用 )</td>
+</tr>
+<tr>
+<td align="center">n<Enter></td>
+<td align="center">n为数字。光标向下移动n列( 常用 )</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">n<space></td>
+<td align="center">那个n 表示『数字』，例如20 。按下数字后再按空白键，光标会向右移动这一列的n 个字符。例如20<space> 则光标会向后面移动20 个字符距离。</td>
+</tr>
+</tbody></table>
+<h2 id="2-搜索与替换"><a href="#2-搜索与替换" class="headerlink" title="2.搜索与替换"></a>2.搜索与替换</h2><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">/word</td>
+<td align="center">向光标之下寻找一个名称为word的字符串。例如要在档案内搜寻word这个字符串，就输入/word即可！( 常用 )</td>
+</tr>
+<tr>
+<td align="center">?word</td>
+<td align="center">向光标之上寻找一个字串名称为word 的字串。</td>
+</tr>
+<tr>
+<td align="center">n</td>
+<td align="center">这个n是英文按键。代表『重复前一个查找操作』。举例来说，如果刚刚我们执行/word去向下搜寻word这个字符串，则按下n后，会向下继续搜寻下一个名称为word的字符串。如果是执行?word的话，那么按下n则会向上继续搜寻名称为word的字符串！</td>
+</tr>
+<tr>
+<td align="center">N</td>
+<td align="center">这个N 是英文按键。与n 刚好相反，为『反向』进行前一个搜寻动作。例如/word 后，按下N 则表示『向上』搜寻word。</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">:n1,n2s/word1/word2/g</td>
+<td align="center">n1与n2为数字。在第n1与n2列之间寻找word1这个字符串，并将该字符串取代为word2 ！举例来说，在100到200列之间搜寻word并取代为WORD则： 『:100,200s/word/WORD/g』。( 常用 )</td>
+</tr>
+<tr>
+<td align="center">:1,$s/word1/word2/g</td>
+<td align="center">从第一列到最后一列寻找word1字符串，并将该字符串取代为word2 ！( 常用 )</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">:1,$s/word1/word2/gc</td>
+<td align="center">从第一列到最后一列寻找word1字符串，并将该字符串取代为word2 ！且在取代前显示提示字符符给使用者确认(confirm)是否需要取代！( 常用 )</td>
+</tr>
+</tbody></table>
+<h2 id="3-删除、复制与粘贴"><a href="#3-删除、复制与粘贴" class="headerlink" title="3.删除、复制与粘贴"></a>3.删除、复制与粘贴</h2><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">x, X</td>
+<td align="center">在一行当中，x为向后删除一个字符(相当于[del]按键)， X为向前删除一个字符(相当于[backspace]亦即是退格键) ( 常用 )</td>
+</tr>
+<tr>
+<td align="center">nx</td>
+<td align="center">n 为数字，连续向后删除n 个字符。举例来说，我要连续删除10 个字符， 『10x』。</td>
+</tr>
+<tr>
+<td align="center">dd</td>
+<td align="center">删除光标所在的那一整列( 常用 )</td>
+</tr>
+<tr>
+<td align="center">ndd</td>
+<td align="center">n为数字。删除光标所在的向下n列，例如20dd则是删除20列( 常用 )</td>
+</tr>
+<tr>
+<td align="center">d1G</td>
+<td align="center">删除光标所在到第一列的所有数据</td>
+</tr>
+<tr>
+<td align="center">dG</td>
+<td align="center">删除光标所在到最后一列的所有资数据</td>
+</tr>
+<tr>
+<td align="center">d$</td>
+<td align="center">删除光标所在处，到该列的最后一个字符</td>
+</tr>
+<tr>
+<td align="center">d0</td>
+<td align="center">那个是数字的0 ，删除光标所在处，到该列的最前面一个字符</td>
+</tr>
+<tr>
+<td align="center">yy</td>
+<td align="center">复制光标所在的那一列( 常用 )</td>
+</tr>
+<tr>
+<td align="center">nyy</td>
+<td align="center">n为数字。复制光标所在的向下n列，例如20yy则是复制20列( 常用 )</td>
+</tr>
+<tr>
+<td align="center">y1G</td>
+<td align="center">复制光标所在列到第一列的所有数据</td>
+</tr>
+<tr>
+<td align="center">yG</td>
+<td align="center">复制光标所在列到最后一列的所有数据</td>
+</tr>
+<tr>
+<td align="center">y0</td>
+<td align="center">复制光标所在的那个字符到该列行首的所有数据</td>
+</tr>
+<tr>
+<td align="center">y$</td>
+<td align="center">复制光标所在的那个字符到该列行尾的所有数据</td>
+</tr>
+<tr>
+<td align="center">p, P</td>
+<td align="center">p为将已复制的数据在光标下一列粘贴，P则为贴在光标上一列！举例来说，我目前光标在第20列，且已经复制了10列数据。则按下p后，那10列数据会贴在原本的20列之后，亦即由21列开始贴。但如果是按下P，那么原本的第20列会被推到变成30列。( 常用 )</td>
+</tr>
+<tr>
+<td align="center">J</td>
+<td align="center">将光标所在列与下一列的数据结合成同一列</td>
+</tr>
+<tr>
+<td align="center">c</td>
+<td align="center">重复删除多个数据，例如向下删除10 列，[ 10cj ]</td>
+</tr>
+<tr>
+<td align="center">u</td>
+<td align="center">复原前一个动作。( 常用 )</td>
+</tr>
+<tr>
+<td align="center">[Ctrl]+r</td>
+<td align="center">重做上一个动作。( 常用 )</td>
+</tr>
+<tr>
+<td align="center">.</td>
+<td align="center">重复前一个动作的意思。如果你想要重复删除、重复贴上等等动作，按下小数点『.』就好了！( 常用 )</td>
+</tr>
+</tbody></table>
+<h1 id="2-编辑模式"><a href="#2-编辑模式" class="headerlink" title="2.编辑模式"></a>2.编辑模式</h1><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">i, I</td>
+<td align="center">进入插入模式(Insert mode)： i为『从目前光标所在处插入』， I为『在目前所在列的第一个非空白字符处开始插入』。( 常用 )</td>
+</tr>
+<tr>
+<td align="center">a, A</td>
+<td align="center">进入插入模式(Insert mode)： a为『从目前光标所在的下一个字符处开始插入』， A为『从光标所在列的最后一个字符处开始插入』。( 常用 )</td>
+</tr>
+<tr>
+<td align="center">o, O</td>
+<td align="center">进入插入模式(Insert mode)： 这是英文字母o的大小写。o为『在目前光标所在的下一列处插入新的一列』； O为在目前光标所在处的上一列插入新的一列！( 常用 )</td>
+</tr>
+<tr>
+<td align="center">r, R</td>
+<td align="center">进入取代模式(Replace mode)： r只会取代光标所在的那一个字符一次；R会一直取代光标所在的文字，直到按下ESC为止；( 常用 )</td>
+</tr>
+<tr>
+<td align="center">[Esc]</td>
+<td align="center">退出编辑模式，回到一般指令模式中( 常用 )</td>
+</tr>
+</tbody></table>
+<h1 id="3-命令行模式"><a href="#3-命令行模式" class="headerlink" title="3.命令行模式"></a>3.命令行模式</h1><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">:w</td>
+<td align="center">将编辑的数据写入硬盘文件中( 常用 )</td>
+</tr>
+<tr>
+<td align="center">:w!</td>
+<td align="center">若文件属性为『只读』时，强制写入该文件。不过，到底能不能写入， 还是跟你对该文件的文件权限有关</td>
+</tr>
+<tr>
+<td align="center">:q</td>
+<td align="center">离开vi ( 常用 )</td>
+</tr>
+<tr>
+<td align="center">:q!</td>
+<td align="center">若曾修改过文件，又不想保存，使用! 为强制退出不保存。</td>
+</tr>
+<tr>
+<td align="center">:wq</td>
+<td align="center">保存后退出，若为:wq!则为强制保存后退出( 常用 )</td>
+</tr>
+<tr>
+<td align="center">ZZ</td>
+<td align="center">若文件没有修改，则不保存退出，若文件已经被修改过，则保存后退出！</td>
+</tr>
+<tr>
+<td align="center">:w [filename]</td>
+<td align="center">将编辑的数据保存成另一个文件（类似另存为）</td>
+</tr>
+<tr>
+<td align="center">:r [filename]</td>
+<td align="center">在编辑的数据中，读入另一个文件的数据。亦即将『filename』 这个文件内容加到光标所在列后面</td>
+</tr>
+<tr>
+<td align="center">:n1,n2 w [filename]</td>
+<td align="center">将n1 到n2 的内容保存为filename 这个文件。</td>
+</tr>
+<tr>
+<td align="center">:! command</td>
+<td align="center">暂时离开vi到命令行模式下执行command的显示结果！例如 『:! ls /home』即可在vi当中察看/home底下以ls输出的文件信息！</td>
+</tr>
+</tbody></table>
+<p>感叹号(!) 在vi 当中，常常具有『强制』的意思～</p>]]></content>
+      <categories>
+        <category>命令行</category>
+      </categories>
+      <tags>
+        <tag>入门学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CommendLine</title>
     <url>/blog/2020/06/11/CommendLine/</url>
     <content><![CDATA[<h1 id="echo"><a href="#echo" class="headerlink" title="echo"></a>echo</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span>  string                                              </span><br><span class="line">        <span class="comment"># 输出字符串</span></span><br><span class="line"><span class="built_in">echo</span>  <span class="variable">$PWD</span>                                       </span><br><span class="line">        <span class="comment">#$为变量 同理亦有PATH ,HOME ...</span></span><br></pre></td></tr></table></figure>
@@ -211,6 +543,14 @@
 
 
 
+<h1 id="压缩，解压"><a href="#压缩，解压" class="headerlink" title="压缩，解压"></a>压缩，解压</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">压缩 </span><br><span class="line">zip :       zip  *.zip  *.*</span><br><span class="line">tar :       tar -cvf *.tar  *.*	</span><br><span class="line">      	<span class="comment">#打包不压缩</span></span><br><span class="line">tar. gz :   tar -zcvf  *.tar. gz  *.*     </span><br><span class="line">tar. bz2 :  tar -jcvf *.tar.bz2 *.*</span><br><span class="line">tar.xz : tar -Jcvf *.tar.xz *.*</span><br><span class="line"></span><br><span class="line">解压 </span><br><span class="line">zip :       unzip  *.zip          or   unzip  *.zip  -d 路径 </span><br><span class="line">tar :     	tar -xvf  *.tar       or   tar -xvf  *.tar  -C 路径 </span><br><span class="line">tar.gz  :   tar -zxvf  *.tar. gz  or   tar -zxvf  *.tar.gz -C 路径 </span><br><span class="line">tar. bz2 :  tar -jxvf  *.tar.bz2  or   tar -jxvf *.tar.bz2 -C</span><br><span class="line">路径</span><br><span class="line">tar.xz :    tar -Jxvf *.tar.xz    or   tar -Jxvf *.tar.xz -C 路径</span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="find-查找文件"><a href="#find-查找文件" class="headerlink" title="find (查找文件)"></a>find (查找文件)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">find ./ -name test.h</span><br><span class="line">		<span class="comment">#查找当前目录名为test.h的文件</span></span><br><span class="line">find ./ -name <span class="string">"*.sh*"</span></span><br><span class="line">		<span class="comment">#查看当前目录下后缀含有.sh的文件</span></span><br><span class="line">find ./ -name <span class="string">"[A-Z]"</span></span><br><span class="line">		<span class="comment">#查看当前目录下以大写字母开头的文件</span></span><br><span class="line">find /tmp -size 2M</span><br><span class="line">		<span class="comment">#查看/tmp下等于2M的文件</span></span><br><span class="line">find ./ -size +2M /*or*/ -2M </span><br><span class="line">		<span class="comment">#查看当前目录下大于/小于2M的文件</span></span><br><span class="line">find ./ -size +4K -size -5M</span><br><span class="line">		<span class="comment">#查看当前目录下大于4K小于5M的文件</span></span><br><span class="line">find ./ -perm 777</span><br><span class="line">		<span class="comment">#查看当前目录下权限为777的文件或目录</span></span><br></pre></td></tr></table></figure>
+
+
+
 <h1 id="man-Manual-用户手册"><a href="#man-Manual-用户手册" class="headerlink" title="man (Manual | 用户手册)"></a>man (Manual | 用户手册)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">man <span class="built_in">pwd</span></span><br><span class="line">        <span class="comment">#显示pwd的用户手册</span></span><br><span class="line">man man</span><br><span class="line">        <span class="comment">#显示man的用户手册</span></span><br><span class="line">man -h</span><br><span class="line">        <span class="comment">#同上，效果不如</span></span><br></pre></td></tr></table></figure>
 
 <h1 id="cat-Concatenate-and-print-files-打印文件内容"><a href="#cat-Concatenate-and-print-files-打印文件内容" class="headerlink" title="cat (Concatenate and print files | 打印文件内容)"></a>cat (Concatenate and print files | 打印文件内容)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat a.txt -n</span><br><span class="line">        <span class="comment">#打印a.txt的内容 显示行号</span></span><br><span class="line">cat a.txt b.txt</span><br><span class="line">        <span class="comment">#打印a.txt,b.txt内容</span></span><br><span class="line">cat &lt; a.txt</span><br><span class="line">        <span class="comment">#将内容重定向到a.txt中，类似与C++中流提取</span></span><br></pre></td></tr></table></figure>
@@ -221,9 +561,19 @@
 
 <h1 id="grep-查询"><a href="#grep-查询" class="headerlink" title="grep (查询)"></a>grep (查询)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat 1.txt | grep 1 </span><br><span class="line">        <span class="comment">#查询命令 查询 1.txt 有无 1 ，grep -n 可显示行号</span></span><br><span class="line"> grep 1 1.txt</span><br><span class="line"> 		<span class="comment">#同上</span></span><br></pre></td></tr></table></figure>
 
+<h1 id="cal-date-查看当前日期时间"><a href="#cal-date-查看当前日期时间" class="headerlink" title="cal date (查看当前日期时间)"></a>cal date (查看当前日期时间)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cal	</span><br><span class="line">		<span class="comment">#查看当前日历，只有该月</span></span><br><span class="line">cal -y 2020 </span><br><span class="line">		<span class="comment">#查看2020年全部日历</span></span><br><span class="line">date</span><br><span class="line">		<span class="comment">#查看当前时间</span></span><br><span class="line">date <span class="string">"+%Y==**%m==**%d"</span></span><br><span class="line">		<span class="comment">#设置样式</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="ps-top-kill-查看系统进程，结束进程"><a href="#ps-top-kill-查看系统进程，结束进程" class="headerlink" title="ps top kill(查看系统进程，结束进程)"></a>ps top kill(查看系统进程，结束进程)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ps -aux</span><br><span class="line">		<span class="comment">#静态打印系统各项指标</span></span><br><span class="line">top</span><br><span class="line">		<span class="comment">#动态打印系统各项指标</span></span><br><span class="line">htop	</span><br><span class="line">		<span class="comment">#以图像形式动态打印系统各项指标</span></span><br><span class="line"><span class="built_in">kill</span> PID</span><br><span class="line">		<span class="comment">#输入想结束进程的PID,结束进程</span></span><br><span class="line"><span class="built_in">kill</span> -9 PID</span><br><span class="line">		<span class="comment">#强制结束进程</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="tree"><a href="#tree" class="headerlink" title="tree"></a>tree</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">tree </span><br><span class="line">		<span class="comment">#以树状结构打印当前目录所有子项</span></span><br><span class="line">tree 文件夹名[相对路径/绝对路径]</span><br><span class="line">		<span class="comment">#以树状结构打印指定目录的所有子项</span></span><br><span class="line">tree -L 1 文件夹名，也可以没有输入量效果同第一个</span><br><span class="line">		<span class="comment">#以树状结构打印当前目录第一级子项,数字变成几就打印到第几级</span></span><br><span class="line">tree | grep txt</span><br><span class="line">		<span class="comment">#管道前语法参考上述三例，查找名为 txt 的文件并以树状结构打印</span></span><br></pre></td></tr></table></figure>
+
+
+
 <h1 id="wc-Word-line-and-byet-Count-显示-行数-单词数-大小"><a href="#wc-Word-line-and-byet-Count-显示-行数-单词数-大小" class="headerlink" title="wc (Word ,line and byet Count | 显示 行数 单词数 大小)"></a>wc (Word ,line and byet Count | 显示 行数 单词数 大小)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">man wc | wc</span><br><span class="line">		<span class="comment">#显示 行数 单词数 大小</span></span><br><span class="line">cat a.txt | wc</span><br></pre></td></tr></table></figure>
 
-<h1 id="chmod-Change-Mode-更改文件权限"><a href="#chmod-Change-Mode-更改文件权限" class="headerlink" title="chmod (Change Mode | 更改文件权限)"></a>chmod (Change Mode | 更改文件权限)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">chmod 777 文件名</span><br><span class="line">		<span class="comment">#赋予文件最高权限</span></span><br><span class="line">chmode +x 文件名</span><br><span class="line">		<span class="comment">#增加可执行权限 / +w +r</span></span><br><span class="line">chmode -x 文件名</span><br><span class="line">		<span class="comment">#移除可执行权限 / -w -r</span></span><br><span class="line">chmode 740 文件名</span><br><span class="line">		<span class="comment">#把文件权限设置改为 740</span></span><br><span class="line">		Owner:  7 = 1 + 2 + 4 = 可执行 + 可写 + 可读</span><br><span class="line">		Group:  4 = 4 = k可读</span><br><span class="line">		Others: 0 = 没有任何权限</span><br><span class="line">		常见: </span><br><span class="line">		644 -rw-r--r-- <span class="comment"># default</span></span><br><span class="line">		755 -rwxr-xr-x</span><br><span class="line">		777 -rwxrwxrwx <span class="comment">#没事别乱用</span></span><br></pre></td></tr></table></figure>
+<h1 id="chmod-Change-Mode-更改文件权限"><a href="#chmod-Change-Mode-更改文件权限" class="headerlink" title="chmod (Change Mode | 更改文件权限)"></a>chmod (Change Mode | 更改文件权限)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">chmod 777 文件名</span><br><span class="line">		<span class="comment">#赋予文件最高权限</span></span><br><span class="line">chmode +x 文件名</span><br><span class="line">		<span class="comment">#增加可执行权限 / +w +r</span></span><br><span class="line">chmode -x 文件名</span><br><span class="line">		<span class="comment">#移除可执行权限 / -w -r</span></span><br><span class="line">chmode 740 文件名</span><br><span class="line">		<span class="comment">#把文件权限设置改为 740</span></span><br><span class="line">		Owner:  rxw = 可执行 + 可写 + 可读 </span><br><span class="line">		Group:  rxw = ...</span><br><span class="line">		Others: rxw = ...</span><br><span class="line">		d第三个权限一般开为1</span><br><span class="line">		数字计算方法：</span><br><span class="line">		0代表关闭 1代表开启 onwer全开启: 二进制：111 八进制 ：7</span><br><span class="line">		group，others同上</span><br><span class="line">		常见: </span><br><span class="line">		644 -rw-r--r-- <span class="comment"># default</span></span><br><span class="line">		755 -rwxr-xr-x</span><br><span class="line">		777 -rwxrwxrwx <span class="comment">#没事别乱用</span></span><br></pre></td></tr></table></figure>
 
 
 
