@@ -1,197 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello everybody</title>
-    <url>/blog/2020/05/10/hello-world/</url>
-    <content><![CDATA[<h1 id="这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧"><a href="#这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧" class="headerlink" title="这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧"></a>这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧</h1>]]></content>
-      <categories>
-        <category>入门学习</category>
-      </categories>
-      <tags>
-        <tag>启程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客写入及样式操作</title>
-    <url>/blog/2020/05/11/%E5%8D%9A%E5%AE%A2%E5%86%99%E5%85%A5%E5%8F%8A%E6%A0%B7%E5%BC%8F%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<h1 id="写入博客"><a href="#写入博客" class="headerlink" title="写入博客"></a>写入博客</h1><p><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></p>
-<p><img src="https://i.loli.net/2020/05/11/Ezi6CTNhjfUAxHm.png" alt="image-20200511163530382"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"你的文章标题"</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="https://i.loli.net/2020/05/11/GktlZRmTxMswSKW.png" alt="image-20200511162138471"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">你要编写的文章的相对目录: Hexo/blog/<span class="built_in">source</span>/_posts</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://i.loli.net/2020/05/11/ewbP94MgY3S7G6A.png" alt="image-20200511163809864"></p>
-<p><img src="https://i.loli.net/2020/05/11/oKjtCSTBuYxW8dn.png" alt="image-20200511161416364"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">title: 标题</span><br><span class="line">tags: 标签</span><br><span class="line">categories: 分类</span><br></pre></td></tr></table></figure>
-
-<p>写文章需要一定的markdown基础，</p>
-<p><a href="https://aakqaj.github.io/blog/2020/05/11/MarkDown基本语法/" target="_blank" rel="noopener">markdown语法</a></p>
-<h1 id="配置样式"><a href="#配置样式" class="headerlink" title="配置样式"></a>配置样式</h1><p>这个有点烦，就是设计博客排版，功能，有时间把这个补上</p>
-<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#插入图片" target="_blank" rel="noopener">这个就不错</a></p>
-<h1 id="命令行操作检查博客及上传到互联网"><a href="#命令行操作检查博客及上传到互联网" class="headerlink" title="命令行操作检查博客及上传到互联网"></a>命令行操作检查博客及上传到互联网</h1><h2 id="在本地打开博客-–-用以检查"><a href="#在本地打开博客-–-用以检查" class="headerlink" title="在本地打开博客 – 用以检查"></a>在本地打开博客 – 用以检查</h2><h5 id=""><a href="#" class="headerlink" title=""></a><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></h5><p><img src="https://i.loli.net/2020/05/11/URZQaJrEqVHuzLA.png" alt="image-20200511111116947"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://i.loli.net/2020/05/11/NFrbWAeR7zQL2BS.png" alt="image-20200511111454970"></p>
-<p>在网址框内输入 ：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">localhost:4000/blog/</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://i.loli.net/2020/05/11/twIg8xAGhiTqBzk.png" alt="image-20200511112824162"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Ctrl + C 退出,&lt;此时网页不能刷新&gt;</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://i.loli.net/2020/05/11/PdHgat1G7mTs5r4.png" alt="image-20200511113002139"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">上传到互联网</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>入门学习</category>
-      </categories>
-      <tags>
-        <tag>启程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MarkDown基本语法</title>
-    <url>/blog/2020/05/11/MarkDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## 二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### 三级标题</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="2-列表"><a href="#2-列表" class="headerlink" title="2.列表"></a>2.列表</h1><ul>
-<li><p>列表1</p>
-<ul>
-<li>列表1的子列表</li>
-</ul>
-</li>
-<li><p>列表2</p>
-<ul>
-<li>列表2的子列表</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">- 列表1</span><br><span class="line">  - 列表1的子列表</span><br><span class="line"></span><br><span class="line">- 列表2</span><br><span class="line">  - 列表2的子列表</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>有序列表1<ol>
-<li>有序列表1的子列表</li>
-</ol>
-</li>
-<li>有序列表2<ol>
-<li>有序列表2的子列表</li>
-</ol>
-</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1. 有序列表1</span><br><span class="line">   1. 有序列表1的子列表</span><br><span class="line">2.  有序列表2</span><br><span class="line">   1. 有序列表2的子列表</span><br></pre></td></tr></table></figure>
-
-<h1 id="3-网址"><a href="#3-网址" class="headerlink" title="3.网址"></a>3.网址</h1><p><a href="https://www.bilibili.com/" target="_blank" rel="noopener">bilibili</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[bilibili](https://www.bilibili.com/)</span><br></pre></td></tr></table></figure>
-
-<p><a href="https://www.wallpapermaiden.com/image/2020/05/10/racing-cars-desert-red-side-view-vehicles-39215.jpeg" target="_blank" rel="noopener">图片</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[图片](https://www.wallpapermaiden.com/image/2020/05/10/racing-cars-desert-red-side-view-vehicles-39215.jpeg)</span><br></pre></td></tr></table></figure>
-
-<h1 id="4-字体样式"><a href="#4-字体样式" class="headerlink" title="4.字体样式"></a>4.字体样式</h1><p><em>斜体字</em></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">*斜体字*</span><br></pre></td></tr></table></figure>
-
-<p><strong>加粗</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">**加粗**</span><br></pre></td></tr></table></figure>
-
-<p><strong><em>加粗斜文本</em></strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">***加粗斜文本***</span><br></pre></td></tr></table></figure>
-
-<p><del>删除线</del></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">~~删除线~~</span><br></pre></td></tr></table></figure>
-
-<hr>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line">分隔线</span><br></pre></td></tr></table></figure>
-
-<p><u>下滑线</u></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;下滑线&lt;/u&gt;</span><br></pre></td></tr></table></figure>
-
-<h1 id="5-区块"><a href="#5-区块" class="headerlink" title="5.区块"></a>5.区块</h1><blockquote>
-<p>最外层</p>
-<blockquote>
-<p>第一层嵌套</p>
-<blockquote>
-<p>第二层嵌套</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt;</span><br><span class="line">&gt; &gt;</span><br><span class="line">&gt; &gt;</span><br><span class="line">&gt; &gt;第一层嵌套</span><br><span class="line">&gt; &gt;</span><br><span class="line">&gt; &gt;&gt; 第二层嵌套</span><br></pre></td></tr></table></figure>
-
-<h1 id="6-代码"><a href="#6-代码" class="headerlink" title="6.代码"></a>6.代码</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">代码区块</span><br><span class="line">右下角可以选择语言如：	C / C++ / JAVA / bash</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">​```bash</span><br><span class="line">代码区块</span><br><span class="line">右下角可以选择语言如：	C / C++ / JAVA / bash </span><br><span class="line">​</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;bash</span><br></pre></td></tr></table></figure>
-
-<h1 id="8-高级技巧"><a href="#8-高级技巧" class="headerlink" title="8.高级技巧"></a>8.高级技巧</h1><p><a href="https://www.runoob.com/markdown/md-advance.html" target="_blank" rel="noopener">MarkDown高级技巧</a></p>
-<h1 id="8-表格"><a href="#8-表格" class="headerlink" title="8.表格"></a>8.表格</h1><table>
-<thead>
-<tr>
-<th align="left">左对齐</th>
-<th align="right">右对齐</th>
-<th align="center">居中对齐</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">单元格</td>
-<td align="right">单元格</td>
-<td align="center">单元格</td>
-</tr>
-<tr>
-<td align="left">单元格</td>
-<td align="right">单元格</td>
-<td align="center">单元格</td>
-</tr>
-</tbody></table>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-----| ----: | :----: |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>入门学习</category>
-      </categories>
-      <tags>
-        <tag>基本操作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux基础命令</title>
-    <url>/blog/2020/05/11/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="一。文件目录操作"><a href="#一。文件目录操作" class="headerlink" title="一。文件目录操作"></a>一。文件目录操作</h1><h2 id="1-ls-选项-目录"><a href="#1-ls-选项-目录" class="headerlink" title="1.ls [选项][目录]"></a>1.ls [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-l ：列出长数据串，包含文件的属性与权限数据等</span><br><span class="line">-a ：列出全部的文件，连同隐藏文件（开头为.的文件）一起列出来（常用）</span><br><span class="line">-d ：仅列出目录本身，而不是列出目录的文件数据</span><br><span class="line">-h ：将文件容量以较易读的方式（GB，kB等）列出来</span><br><span class="line">-R ：连同子目录的内容一起列出（递归列出），等于该目录下的所有文件都会显示出来</span><br></pre></td></tr></table></figure>
-
-
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ls -al /home   <span class="comment">#列出 home 目录下的所有文件和目录的详细资料。</span></span><br><span class="line">ls -l d*       <span class="comment">#列出当前目录下所有以"d"开头的文件目录详情内容。</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="2-cd"><a href="#2-cd" class="headerlink" title="2.cd"></a>2.cd</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> [目录名]</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /           <span class="comment">#从当前目录进入系统根目录</span></span><br><span class="line"><span class="built_in">cd</span> /home/bin   <span class="comment">#跳转到 home/bin</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="3-pwd"><a href="#3-pwd" class="headerlink" title="3.pwd"></a>3.pwd</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">pwd</span>            <span class="comment">#查看"当前工作目录"的完整路径</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="4-mkdir-选项-目录"><a href="#4-mkdir-选项-目录" class="headerlink" title="4.mkdir [选项][目录]"></a>4.mkdir [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-p, --parents 可以是一个路径名称。此时若路径中的某些目录尚不存在,加上此选项后,系统将自动建立好那些尚不存在的目录,即一次可以建立多个目录;</span><br><span class="line">--<span class="built_in">help</span> 显示此帮助信息并退出</span><br><span class="line">-v, --verbose 每次创建新目录都显示信息</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir <span class="built_in">test</span>     <span class="comment">#创建一个空目录</span></span><br><span class="line">mkdir <span class="built_in">test</span>/t1  <span class="comment">#递归创建多个目录</span></span><br><span class="line">mkdir -v <span class="built_in">test</span>  <span class="comment">#创建目录都显示信息</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="5-rm-选项-目录"><a href="#5-rm-选项-目录" class="headerlink" title="5.rm [选项][目录]"></a>5.rm [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-f, --force 忽略不存在的文件，从不给出提示。</span><br><span class="line">-i, --interactive 进行交互式删除</span><br><span class="line">-r, -R, --recursive 指示rm将参数中列出的全部目录和子目录均递归地删除。</span><br><span class="line">-v, --verbose 详细显示进行的步骤</span><br><span class="line">--<span class="built_in">help</span> 显示此帮助信息并退出</span><br><span class="line">--version 输出版本信息并退出</span><br><span class="line">————————————————————————————————————————————————————————————</span><br><span class="line">rmdir 命令  该命令从一个目录中删除一个或多个子目录项，删除某目录时也必须具有对父目录的写权限</span><br><span class="line">rmdir [选项] 目录</span><br><span class="line">-p 递归删除目录dirname，当子目录删除后其父目录为空时，也一同被删除。如果整个路径被删除或者由于某种原因保留部分路径，则系统在标准输出上显示相应的信息。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-v, --verbose 显示指令执行过程</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rm test.txt    <span class="comment">#删除文件 test.txt,系统会提示是否删除</span></span><br><span class="line">rm -f test.txt <span class="comment">#强制删除 test.txt，系统不再提示</span></span><br><span class="line">rm -r <span class="built_in">test</span>     <span class="comment">#将 test 子目录及目录中所有档案删除</span></span><br><span class="line">sudo rm -rf /* <span class="comment">#sudo以管理员身份运行 rm ReMove移除 rf RubbishFile垃圾文件</span></span><br><span class="line">//一天一次，清理垃圾，保持系统流畅运行</span><br><span class="line">————————————————————————————————————————————————————————————</span><br><span class="line">rmdir test1    <span class="comment">#删除空目录 test1，非空目录无法删除</span></span><br><span class="line">rmdir -p test2 <span class="comment"># test 目录下仅有 test2 #当子目录被删除后使它也成为空目录的话，则顺便一并删除</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="6-mv-选项-源文件或目录-目标文件或目录"><a href="#6-mv-选项-源文件或目录-目标文件或目录" class="headerlink" title="6. mv [选项] 源文件或目录 目标文件或目录"></a>6. mv [选项] 源文件或目录 目标文件或目录</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-b ：若需覆盖文件，则覆盖前先行备份</span><br><span class="line">-f ：force 强制的意思，如果目标文件已经存在，不会询问而直接覆盖</span><br><span class="line">-i ：若目标文件 (destination) 已经存在时，就会询问是否覆盖</span><br><span class="line">-u ：若目标文件已经存在，且 <span class="built_in">source</span> 比较新，才会更新(update)</span><br><span class="line">-t ： --target-directory=DIRECTORY move all SOURCE arguments into DIRECTORY，即指定mv的目标目录，该选项适用于移动多个源文件到一个目录的情况，此时目标目录在前，源文件在后</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mv test1.txt test2.txt <span class="comment">#将 test1.txt 重命名为 test2.txt</span></span><br><span class="line">mv test1.txt test2     <span class="comment">#移动文件 test1.txt 到目录 test2</span></span><br><span class="line">mv test1.txt test2.txt test3.txt test3 <span class="comment">#将文件 test1.txt、test2.txt、test3.txt 移动到目录 test3</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>命令行</category>
-      </categories>
-      <tags>
-        <tag>入门学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Vim命令</title>
     <url>/blog/2020/07/09/Vim%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<h1 id="1-一般命令模式"><a href="#1-一般命令模式" class="headerlink" title="1.一般命令模式"></a><strong>1.一般命令模式</strong></h1><h2 id="1-移动光标"><a href="#1-移动光标" class="headerlink" title="1.移动光标"></a>1.移动光标</h2><table>
+    <content><![CDATA[<h1 id="1-Vi"><a href="#1-Vi" class="headerlink" title="1.Vi"></a>1.Vi</h1><h2 id="1-一般命令模式"><a href="#1-一般命令模式" class="headerlink" title="1.一般命令模式"></a><strong>1.一般命令模式</strong></h2><h3 id="1-移动光标"><a href="#1-移动光标" class="headerlink" title="1.移动光标"></a>1.移动光标</h3><table>
 <thead>
 <tr>
 <th align="center">操作</th>
@@ -300,7 +112,7 @@
 <td align="center">那个n 表示『数字』，例如20 。按下数字后再按空白键，光标会向右移动这一列的n 个字符。例如20<space> 则光标会向后面移动20 个字符距离。</td>
 </tr>
 </tbody></table>
-<h2 id="2-搜索与替换"><a href="#2-搜索与替换" class="headerlink" title="2.搜索与替换"></a>2.搜索与替换</h2><table>
+<h3 id="2-搜索与替换"><a href="#2-搜索与替换" class="headerlink" title="2.搜索与替换"></a>2.搜索与替换</h3><table>
 <thead>
 <tr>
 <th align="center">操作</th>
@@ -348,7 +160,7 @@
 <td align="center">从第一列到最后一列寻找word1字符串，并将该字符串取代为word2 ！且在取代前显示提示字符符给使用者确认(confirm)是否需要取代！( 常用 )</td>
 </tr>
 </tbody></table>
-<h2 id="3-删除、复制与粘贴"><a href="#3-删除、复制与粘贴" class="headerlink" title="3.删除、复制与粘贴"></a>3.删除、复制与粘贴</h2><table>
+<h3 id="3-删除、复制与粘贴"><a href="#3-删除、复制与粘贴" class="headerlink" title="3.删除、复制与粘贴"></a>3.删除、复制与粘贴</h3><table>
 <thead>
 <tr>
 <th align="center">操作</th>
@@ -436,7 +248,7 @@
 <td align="center">重复前一个动作的意思。如果你想要重复删除、重复贴上等等动作，按下小数点『.』就好了！( 常用 )</td>
 </tr>
 </tbody></table>
-<h1 id="2-编辑模式"><a href="#2-编辑模式" class="headerlink" title="2.编辑模式"></a>2.编辑模式</h1><table>
+<h2 id="2-编辑模式"><a href="#2-编辑模式" class="headerlink" title="2.编辑模式"></a>2.编辑模式</h2><table>
 <thead>
 <tr>
 <th align="center">操作</th>
@@ -464,7 +276,7 @@
 <td align="center">退出编辑模式，回到一般指令模式中( 常用 )</td>
 </tr>
 </tbody></table>
-<h1 id="3-命令行模式"><a href="#3-命令行模式" class="headerlink" title="3.命令行模式"></a>3.命令行模式</h1><table>
+<h2 id="3-命令行模式"><a href="#3-命令行模式" class="headerlink" title="3.命令行模式"></a>3.命令行模式</h2><table>
 <thead>
 <tr>
 <th align="center">操作</th>
@@ -512,7 +324,365 @@
 <td align="center">暂时离开vi到命令行模式下执行command的显示结果！例如 『:! ls /home』即可在vi当中察看/home底下以ls输出的文件信息！</td>
 </tr>
 </tbody></table>
-<p>感叹号(!) 在vi 当中，常常具有『强制』的意思～</p>]]></content>
+<p>感叹号(!) 在vi 当中，常常具有『强制』的意思～</p>
+<h1 id="2-Vim特有功能"><a href="#2-Vim特有功能" class="headerlink" title="2.Vim特有功能"></a>2.Vim特有功能</h1><h2 id="1-区域选择"><a href="#1-区域选择" class="headerlink" title="1.区域选择"></a>1.区域选择</h2><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">v</td>
+<td align="center">字符选择，移动游标，游标经过的地方会反白选择</td>
+</tr>
+<tr>
+<td align="center">V</td>
+<td align="center">行选择，移动游标，游标经过的行会反白选择</td>
+</tr>
+<tr>
+<td align="center">[Ctrl]+v</td>
+<td align="center">区块选择，移动游标以长方形方块的方式反白选择</td>
+</tr>
+<tr>
+<td align="center">y</td>
+<td align="center">复制反白选择的地方</td>
+</tr>
+<tr>
+<td align="center">d</td>
+<td align="center">删除反白选择的地方</td>
+</tr>
+<tr>
+<td align="center">p</td>
+<td align="center">将之前复制的区块，粘贴在游标所在处</td>
+</tr>
+</tbody></table>
+<h2 id="2-多文件编辑"><a href="#2-多文件编辑" class="headerlink" title="2.多文件编辑"></a>2.多文件编辑</h2><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">:n</td>
+<td align="center">编辑下一个文件</td>
+</tr>
+<tr>
+<td align="center">:N</td>
+<td align="center">编辑上一个文件</td>
+</tr>
+<tr>
+<td align="center">:files</td>
+<td align="center">列出 vim 所打开的所有文件</td>
+</tr>
+</tbody></table>
+<h2 id="3-多窗口功能"><a href="#3-多窗口功能" class="headerlink" title="3.多窗口功能"></a>3.多窗口功能</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#命令行模式输入 </span></span><br><span class="line">:sp filename</span><br><span class="line"><span class="comment">#仅输入sp打开的是同一个文件</span></span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">:sp [filename]</td>
+<td align="center">开启一个新窗口，如果有加filename， 表示在新窗口创建一个新文件，否则表示两个窗口为同一个文件内容(同步显示)。</td>
+</tr>
+<tr>
+<td align="center">[ctrl]+w+ j [ctrl]+w+↓</td>
+<td align="center">按键的按法是：先按下[ctrl] 不放， 再按下w 后放开所有的按键，然后再按下j (或向下方向键)，则光标可移动到下方的窗口。</td>
+</tr>
+<tr>
+<td align="center">[ctrl]+w+ k [ctrl]+w+↑</td>
+<td align="center">同上，不过光标移动到上面的窗口。</td>
+</tr>
+<tr>
+<td align="center">[ctrl]+w+ q</td>
+<td align="center">其实就是:q 结束离开。举例来说，如果我想要关闭下方的窗口，那么利用[ctrl]+w+↓ 移动到下方视窗后，按下:q 即可离开， 也可以按下[ctrl]+w+q</td>
+</tr>
+</tbody></table>
+<h2 id="4-补齐"><a href="#4-补齐" class="headerlink" title="4.补齐"></a>4.补齐</h2><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">[ctrl]+x -&gt; [ctrl]+n</td>
+<td align="center">依据目前正在编辑的文件内容作为关键字，予以补齐（语法依据副档名）</td>
+</tr>
+<tr>
+<td align="center">[ctrl]+x -&gt; [ctrl]+f</td>
+<td align="center">依据当前目录下的文件名，予以补齐</td>
+</tr>
+<tr>
+<td align="center">[ctrl]+x -&gt; [ctrl]+o</td>
+<td align="center">以副档名作为语法关键字，予以补齐</td>
+</tr>
+</tbody></table>
+<h2 id="5-环境设定参数"><a href="#5-环境设定参数" class="headerlink" title="5.环境设定参数"></a>5.环境设定参数</h2><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">:set nu</td>
+<td align="center">设定行号</td>
+</tr>
+<tr>
+<td align="center">:set nonu</td>
+<td align="center">取消行号</td>
+</tr>
+<tr>
+<td align="center">:set hlsearch</td>
+<td align="center">搜索到的关键字反白显示 <strong>（默认）</strong></td>
+</tr>
+<tr>
+<td align="center">:set nohlsearch</td>
+<td align="center">搜索到的关键字取消反白显示</td>
+</tr>
+<tr>
+<td align="center">:set autoindent</td>
+<td align="center">自动缩排 <strong>（默认）</strong></td>
+</tr>
+<tr>
+<td align="center">:set noautoindent</td>
+<td align="center">不自动缩排</td>
+</tr>
+<tr>
+<td align="center">:set backup</td>
+<td align="center">自动存储备份档（备份档名为 filename~）</td>
+</tr>
+<tr>
+<td align="center">:set ruler</td>
+<td align="center">显示右下角状态说明</td>
+</tr>
+<tr>
+<td align="center">:set showmode</td>
+<td align="center">显示左下角状态说明（比如 INSERT）</td>
+</tr>
+<tr>
+<td align="center">:set backspace=(012)</td>
+<td align="center">倒退键设置；2：可以删除任意值；0 或者 1，仅可删除刚刚输入的字符，无法删除原来就存在的字符</td>
+</tr>
+<tr>
+<td align="center">:set all</td>
+<td align="center">显示所有环境参数设定值</td>
+</tr>
+<tr>
+<td align="center">:set</td>
+<td align="center">显示与系统默认值不同的设定值</td>
+</tr>
+<tr>
+<td align="center">:syntax on</td>
+<td align="center">开启语法着色</td>
+</tr>
+<tr>
+<td align="center">:syntax off</td>
+<td align="center">关闭语法着色</td>
+</tr>
+<tr>
+<td align="center">:set bg=dark</td>
+<td align="center">开启语法着色深色方案</td>
+</tr>
+<tr>
+<td align="center">:set bg=light</td>
+<td align="center">开启语法着色浅色方案 <strong>（默认）</strong></td>
+</tr>
+</tbody></table>]]></content>
+      <categories>
+        <category>命令行</category>
+      </categories>
+      <tags>
+        <tag>入门学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MarkDown基本语法</title>
+    <url>/blog/2020/05/11/MarkDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## 二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### 三级标题</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="2-列表"><a href="#2-列表" class="headerlink" title="2.列表"></a>2.列表</h1><ul>
+<li><p>列表1</p>
+<ul>
+<li>列表1的子列表</li>
+</ul>
+</li>
+<li><p>列表2</p>
+<ul>
+<li>列表2的子列表</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">- 列表1</span><br><span class="line">  - 列表1的子列表</span><br><span class="line"></span><br><span class="line">- 列表2</span><br><span class="line">  - 列表2的子列表</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>有序列表1<ol>
+<li>有序列表1的子列表</li>
+</ol>
+</li>
+<li>有序列表2<ol>
+<li>有序列表2的子列表</li>
+</ol>
+</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1. 有序列表1</span><br><span class="line">   1. 有序列表1的子列表</span><br><span class="line">2.  有序列表2</span><br><span class="line">   1. 有序列表2的子列表</span><br></pre></td></tr></table></figure>
+
+<h1 id="3-网址"><a href="#3-网址" class="headerlink" title="3.网址"></a>3.网址</h1><p><a href="https://www.bilibili.com/" target="_blank" rel="noopener">bilibili</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[bilibili](https://www.bilibili.com/)</span><br></pre></td></tr></table></figure>
+
+<p><a href="https://www.wallpapermaiden.com/image/2020/05/10/racing-cars-desert-red-side-view-vehicles-39215.jpeg" target="_blank" rel="noopener">图片</a></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[图片](https://www.wallpapermaiden.com/image/2020/05/10/racing-cars-desert-red-side-view-vehicles-39215.jpeg)</span><br></pre></td></tr></table></figure>
+
+<h1 id="4-字体样式"><a href="#4-字体样式" class="headerlink" title="4.字体样式"></a>4.字体样式</h1><p><em>斜体字</em></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">*斜体字*</span><br></pre></td></tr></table></figure>
+
+<p><strong>加粗</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">**加粗**</span><br></pre></td></tr></table></figure>
+
+<p><strong><em>加粗斜文本</em></strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">***加粗斜文本***</span><br></pre></td></tr></table></figure>
+
+<p><del>删除线</del></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">~~删除线~~</span><br></pre></td></tr></table></figure>
+
+<hr>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line">分隔线</span><br></pre></td></tr></table></figure>
+
+<p><u>下滑线</u></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;下滑线&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="5-区块"><a href="#5-区块" class="headerlink" title="5.区块"></a>5.区块</h1><blockquote>
+<p>最外层</p>
+<blockquote>
+<p>第一层嵌套</p>
+<blockquote>
+<p>第二层嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt;</span><br><span class="line">&gt; &gt;</span><br><span class="line">&gt; &gt;</span><br><span class="line">&gt; &gt;第一层嵌套</span><br><span class="line">&gt; &gt;</span><br><span class="line">&gt; &gt;&gt; 第二层嵌套</span><br></pre></td></tr></table></figure>
+
+<h1 id="6-代码"><a href="#6-代码" class="headerlink" title="6.代码"></a>6.代码</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">代码区块</span><br><span class="line">右下角可以选择语言如：	C / C++ / JAVA / bash</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">​```bash</span><br><span class="line">代码区块</span><br><span class="line">右下角可以选择语言如：	C / C++ / JAVA / bash </span><br><span class="line">​</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#96;&#96;&#96;bash</span><br></pre></td></tr></table></figure>
+
+<h1 id="8-高级技巧"><a href="#8-高级技巧" class="headerlink" title="8.高级技巧"></a>8.高级技巧</h1><p><a href="https://www.runoob.com/markdown/md-advance.html" target="_blank" rel="noopener">MarkDown高级技巧</a></p>
+<h1 id="8-表格"><a href="#8-表格" class="headerlink" title="8.表格"></a>8.表格</h1><table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">| 左对齐 | 右对齐 | 居中对齐 |</span><br><span class="line">| :-----| ----: | :----: |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br><span class="line">| 单元格 | 单元格 | 单元格 |</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>入门学习</category>
+      </categories>
+      <tags>
+        <tag>基本操作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello everybody</title>
+    <url>/blog/2020/05/10/hello-world/</url>
+    <content><![CDATA[<h1 id="这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧"><a href="#这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧" class="headerlink" title="这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧"></a>这是LiuSama的第一个博客，点击左侧GayHub，来一起van吧</h1>]]></content>
+      <categories>
+        <category>入门学习</category>
+      </categories>
+      <tags>
+        <tag>启程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客写入及样式操作</title>
+    <url>/blog/2020/05/11/%E5%8D%9A%E5%AE%A2%E5%86%99%E5%85%A5%E5%8F%8A%E6%A0%B7%E5%BC%8F%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<h1 id="写入博客"><a href="#写入博客" class="headerlink" title="写入博客"></a>写入博客</h1><p><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></p>
+<p><img src="https://i.loli.net/2020/05/11/Ezi6CTNhjfUAxHm.png" alt="image-20200511163530382"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"你的文章标题"</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2020/05/11/GktlZRmTxMswSKW.png" alt="image-20200511162138471"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">你要编写的文章的相对目录: Hexo/blog/<span class="built_in">source</span>/_posts</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2020/05/11/ewbP94MgY3S7G6A.png" alt="image-20200511163809864"></p>
+<p><img src="https://i.loli.net/2020/05/11/oKjtCSTBuYxW8dn.png" alt="image-20200511161416364"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">title: 标题</span><br><span class="line">tags: 标签</span><br><span class="line">categories: 分类</span><br></pre></td></tr></table></figure>
+
+<p>写文章需要一定的markdown基础，</p>
+<p><a href="https://aakqaj.github.io/blog/2020/05/11/MarkDown基本语法/" target="_blank" rel="noopener">markdown语法</a></p>
+<h1 id="配置样式"><a href="#配置样式" class="headerlink" title="配置样式"></a>配置样式</h1><p>这个有点烦，就是设计博客排版，功能，有时间把这个补上</p>
+<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#插入图片" target="_blank" rel="noopener">这个就不错</a></p>
+<h1 id="命令行操作检查博客及上传到互联网"><a href="#命令行操作检查博客及上传到互联网" class="headerlink" title="命令行操作检查博客及上传到互联网"></a>命令行操作检查博客及上传到互联网</h1><h2 id="在本地打开博客-–-用以检查"><a href="#在本地打开博客-–-用以检查" class="headerlink" title="在本地打开博客 – 用以检查"></a>在本地打开博客 – 用以检查</h2><h5 id=""><a href="#" class="headerlink" title=""></a><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></h5><p><img src="https://i.loli.net/2020/05/11/URZQaJrEqVHuzLA.png" alt="image-20200511111116947"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2020/05/11/NFrbWAeR7zQL2BS.png" alt="image-20200511111454970"></p>
+<p>在网址框内输入 ：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">localhost:4000/blog/</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://i.loli.net/2020/05/11/twIg8xAGhiTqBzk.png" alt="image-20200511112824162"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Ctrl + C 退出,&lt;此时网页不能刷新&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><img src="https://i.loli.net/2020/05/11/PdHgat1G7mTs5r4.png" alt="image-20200511113002139"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">上传到互联网</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>入门学习</category>
+      </categories>
+      <tags>
+        <tag>启程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux基础命令</title>
+    <url>/blog/2020/05/11/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="一。文件目录操作"><a href="#一。文件目录操作" class="headerlink" title="一。文件目录操作"></a>一。文件目录操作</h1><h2 id="1-ls-选项-目录"><a href="#1-ls-选项-目录" class="headerlink" title="1.ls [选项][目录]"></a>1.ls [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-l ：列出长数据串，包含文件的属性与权限数据等</span><br><span class="line">-a ：列出全部的文件，连同隐藏文件（开头为.的文件）一起列出来（常用）</span><br><span class="line">-d ：仅列出目录本身，而不是列出目录的文件数据</span><br><span class="line">-h ：将文件容量以较易读的方式（GB，kB等）列出来</span><br><span class="line">-R ：连同子目录的内容一起列出（递归列出），等于该目录下的所有文件都会显示出来</span><br></pre></td></tr></table></figure>
+
+
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ls -al /home   <span class="comment">#列出 home 目录下的所有文件和目录的详细资料。</span></span><br><span class="line">ls -l d*       <span class="comment">#列出当前目录下所有以"d"开头的文件目录详情内容。</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2-cd"><a href="#2-cd" class="headerlink" title="2.cd"></a>2.cd</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> [目录名]</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /           <span class="comment">#从当前目录进入系统根目录</span></span><br><span class="line"><span class="built_in">cd</span> /home/bin   <span class="comment">#跳转到 home/bin</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="3-pwd"><a href="#3-pwd" class="headerlink" title="3.pwd"></a>3.pwd</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">pwd</span>            <span class="comment">#查看"当前工作目录"的完整路径</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="4-mkdir-选项-目录"><a href="#4-mkdir-选项-目录" class="headerlink" title="4.mkdir [选项][目录]"></a>4.mkdir [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-p, --parents 可以是一个路径名称。此时若路径中的某些目录尚不存在,加上此选项后,系统将自动建立好那些尚不存在的目录,即一次可以建立多个目录;</span><br><span class="line">--<span class="built_in">help</span> 显示此帮助信息并退出</span><br><span class="line">-v, --verbose 每次创建新目录都显示信息</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir <span class="built_in">test</span>     <span class="comment">#创建一个空目录</span></span><br><span class="line">mkdir <span class="built_in">test</span>/t1  <span class="comment">#递归创建多个目录</span></span><br><span class="line">mkdir -v <span class="built_in">test</span>  <span class="comment">#创建目录都显示信息</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="5-rm-选项-目录"><a href="#5-rm-选项-目录" class="headerlink" title="5.rm [选项][目录]"></a>5.rm [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-f, --force 忽略不存在的文件，从不给出提示。</span><br><span class="line">-i, --interactive 进行交互式删除</span><br><span class="line">-r, -R, --recursive 指示rm将参数中列出的全部目录和子目录均递归地删除。</span><br><span class="line">-v, --verbose 详细显示进行的步骤</span><br><span class="line">--<span class="built_in">help</span> 显示此帮助信息并退出</span><br><span class="line">--version 输出版本信息并退出</span><br><span class="line">————————————————————————————————————————————————————————————</span><br><span class="line">rmdir 命令  该命令从一个目录中删除一个或多个子目录项，删除某目录时也必须具有对父目录的写权限</span><br><span class="line">rmdir [选项] 目录</span><br><span class="line">-p 递归删除目录dirname，当子目录删除后其父目录为空时，也一同被删除。如果整个路径被删除或者由于某种原因保留部分路径，则系统在标准输出上显示相应的信息。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-v, --verbose 显示指令执行过程</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rm test.txt    <span class="comment">#删除文件 test.txt,系统会提示是否删除</span></span><br><span class="line">rm -f test.txt <span class="comment">#强制删除 test.txt，系统不再提示</span></span><br><span class="line">rm -r <span class="built_in">test</span>     <span class="comment">#将 test 子目录及目录中所有档案删除</span></span><br><span class="line">sudo rm -rf /* <span class="comment">#sudo以管理员身份运行 rm ReMove移除 rf RubbishFile垃圾文件</span></span><br><span class="line">//一天一次，清理垃圾，保持系统流畅运行</span><br><span class="line">————————————————————————————————————————————————————————————</span><br><span class="line">rmdir test1    <span class="comment">#删除空目录 test1，非空目录无法删除</span></span><br><span class="line">rmdir -p test2 <span class="comment"># test 目录下仅有 test2 #当子目录被删除后使它也成为空目录的话，则顺便一并删除</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="6-mv-选项-源文件或目录-目标文件或目录"><a href="#6-mv-选项-源文件或目录-目标文件或目录" class="headerlink" title="6. mv [选项] 源文件或目录 目标文件或目录"></a>6. mv [选项] 源文件或目录 目标文件或目录</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-b ：若需覆盖文件，则覆盖前先行备份</span><br><span class="line">-f ：force 强制的意思，如果目标文件已经存在，不会询问而直接覆盖</span><br><span class="line">-i ：若目标文件 (destination) 已经存在时，就会询问是否覆盖</span><br><span class="line">-u ：若目标文件已经存在，且 <span class="built_in">source</span> 比较新，才会更新(update)</span><br><span class="line">-t ： --target-directory=DIRECTORY move all SOURCE arguments into DIRECTORY，即指定mv的目标目录，该选项适用于移动多个源文件到一个目录的情况，此时目标目录在前，源文件在后</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mv test1.txt test2.txt <span class="comment">#将 test1.txt 重命名为 test2.txt</span></span><br><span class="line">mv test1.txt test2     <span class="comment">#移动文件 test1.txt 到目录 test2</span></span><br><span class="line">mv test1.txt test2.txt test3.txt test3 <span class="comment">#将文件 test1.txt、test2.txt、test3.txt 移动到目录 test3</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>命令行</category>
       </categories>

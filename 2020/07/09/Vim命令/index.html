@@ -84,7 +84,7 @@
 <meta property="og:url" content="http://yoursite.com/2020/07/09/Vim%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="懒狗起来学习了">
 <meta property="article:published_time" content="2020-07-09T02:32:42.000Z">
-<meta property="article:modified_time" content="2020-07-09T02:38:08.653Z">
+<meta property="article:modified_time" content="2020-07-09T10:13:27.046Z">
 <meta property="article:author" content="LiuSama">
 <meta property="article:tag" content="入门学习">
 <meta name="twitter:card" content="summary">
@@ -372,7 +372,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1.9k
+                  2.5k
                 </span>
               
 
@@ -388,7 +388,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  6
+                  9
                 </span>
               
             </div>
@@ -409,7 +409,7 @@
       
 
       
-        <h1 id="1-一般命令模式"><a href="#1-一般命令模式" class="headerlink" title="1.一般命令模式"></a><strong>1.一般命令模式</strong></h1><h2 id="1-移动光标"><a href="#1-移动光标" class="headerlink" title="1.移动光标"></a>1.移动光标</h2><table>
+        <h1 id="1-Vi"><a href="#1-Vi" class="headerlink" title="1.Vi"></a>1.Vi</h1><h2 id="1-一般命令模式"><a href="#1-一般命令模式" class="headerlink" title="1.一般命令模式"></a><strong>1.一般命令模式</strong></h2><h3 id="1-移动光标"><a href="#1-移动光标" class="headerlink" title="1.移动光标"></a>1.移动光标</h3><table>
 <thead>
 <tr>
 <th align="center">操作</th>
@@ -518,7 +518,7 @@
 <td align="center">那个n 表示『数字』，例如20 。按下数字后再按空白键，光标会向右移动这一列的n 个字符。例如20<space> 则光标会向后面移动20 个字符距离。</td>
 </tr>
 </tbody></table>
-<h2 id="2-搜索与替换"><a href="#2-搜索与替换" class="headerlink" title="2.搜索与替换"></a>2.搜索与替换</h2><table>
+<h3 id="2-搜索与替换"><a href="#2-搜索与替换" class="headerlink" title="2.搜索与替换"></a>2.搜索与替换</h3><table>
 <thead>
 <tr>
 <th align="center">操作</th>
@@ -566,7 +566,7 @@
 <td align="center">从第一列到最后一列寻找word1字符串，并将该字符串取代为word2 ！且在取代前显示提示字符符给使用者确认(confirm)是否需要取代！( 常用 )</td>
 </tr>
 </tbody></table>
-<h2 id="3-删除、复制与粘贴"><a href="#3-删除、复制与粘贴" class="headerlink" title="3.删除、复制与粘贴"></a>3.删除、复制与粘贴</h2><table>
+<h3 id="3-删除、复制与粘贴"><a href="#3-删除、复制与粘贴" class="headerlink" title="3.删除、复制与粘贴"></a>3.删除、复制与粘贴</h3><table>
 <thead>
 <tr>
 <th align="center">操作</th>
@@ -654,7 +654,7 @@
 <td align="center">重复前一个动作的意思。如果你想要重复删除、重复贴上等等动作，按下小数点『.』就好了！( 常用 )</td>
 </tr>
 </tbody></table>
-<h1 id="2-编辑模式"><a href="#2-编辑模式" class="headerlink" title="2.编辑模式"></a>2.编辑模式</h1><table>
+<h2 id="2-编辑模式"><a href="#2-编辑模式" class="headerlink" title="2.编辑模式"></a>2.编辑模式</h2><table>
 <thead>
 <tr>
 <th align="center">操作</th>
@@ -682,7 +682,7 @@
 <td align="center">退出编辑模式，回到一般指令模式中( 常用 )</td>
 </tr>
 </tbody></table>
-<h1 id="3-命令行模式"><a href="#3-命令行模式" class="headerlink" title="3.命令行模式"></a>3.命令行模式</h1><table>
+<h2 id="3-命令行模式"><a href="#3-命令行模式" class="headerlink" title="3.命令行模式"></a>3.命令行模式</h2><table>
 <thead>
 <tr>
 <th align="center">操作</th>
@@ -731,6 +731,176 @@
 </tr>
 </tbody></table>
 <p>感叹号(!) 在vi 当中，常常具有『强制』的意思～</p>
+<h1 id="2-Vim特有功能"><a href="#2-Vim特有功能" class="headerlink" title="2.Vim特有功能"></a>2.Vim特有功能</h1><h2 id="1-区域选择"><a href="#1-区域选择" class="headerlink" title="1.区域选择"></a>1.区域选择</h2><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">v</td>
+<td align="center">字符选择，移动游标，游标经过的地方会反白选择</td>
+</tr>
+<tr>
+<td align="center">V</td>
+<td align="center">行选择，移动游标，游标经过的行会反白选择</td>
+</tr>
+<tr>
+<td align="center">[Ctrl]+v</td>
+<td align="center">区块选择，移动游标以长方形方块的方式反白选择</td>
+</tr>
+<tr>
+<td align="center">y</td>
+<td align="center">复制反白选择的地方</td>
+</tr>
+<tr>
+<td align="center">d</td>
+<td align="center">删除反白选择的地方</td>
+</tr>
+<tr>
+<td align="center">p</td>
+<td align="center">将之前复制的区块，粘贴在游标所在处</td>
+</tr>
+</tbody></table>
+<h2 id="2-多文件编辑"><a href="#2-多文件编辑" class="headerlink" title="2.多文件编辑"></a>2.多文件编辑</h2><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">:n</td>
+<td align="center">编辑下一个文件</td>
+</tr>
+<tr>
+<td align="center">:N</td>
+<td align="center">编辑上一个文件</td>
+</tr>
+<tr>
+<td align="center">:files</td>
+<td align="center">列出 vim 所打开的所有文件</td>
+</tr>
+</tbody></table>
+<h2 id="3-多窗口功能"><a href="#3-多窗口功能" class="headerlink" title="3.多窗口功能"></a>3.多窗口功能</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#命令行模式输入 </span></span><br><span class="line">:sp filename</span><br><span class="line"><span class="comment">#仅输入sp打开的是同一个文件</span></span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">:sp [filename]</td>
+<td align="center">开启一个新窗口，如果有加filename， 表示在新窗口创建一个新文件，否则表示两个窗口为同一个文件内容(同步显示)。</td>
+</tr>
+<tr>
+<td align="center">[ctrl]+w+ j [ctrl]+w+↓</td>
+<td align="center">按键的按法是：先按下[ctrl] 不放， 再按下w 后放开所有的按键，然后再按下j (或向下方向键)，则光标可移动到下方的窗口。</td>
+</tr>
+<tr>
+<td align="center">[ctrl]+w+ k [ctrl]+w+↑</td>
+<td align="center">同上，不过光标移动到上面的窗口。</td>
+</tr>
+<tr>
+<td align="center">[ctrl]+w+ q</td>
+<td align="center">其实就是:q 结束离开。举例来说，如果我想要关闭下方的窗口，那么利用[ctrl]+w+↓ 移动到下方视窗后，按下:q 即可离开， 也可以按下[ctrl]+w+q</td>
+</tr>
+</tbody></table>
+<h2 id="4-补齐"><a href="#4-补齐" class="headerlink" title="4.补齐"></a>4.补齐</h2><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">[ctrl]+x -&gt; [ctrl]+n</td>
+<td align="center">依据目前正在编辑的文件内容作为关键字，予以补齐（语法依据副档名）</td>
+</tr>
+<tr>
+<td align="center">[ctrl]+x -&gt; [ctrl]+f</td>
+<td align="center">依据当前目录下的文件名，予以补齐</td>
+</tr>
+<tr>
+<td align="center">[ctrl]+x -&gt; [ctrl]+o</td>
+<td align="center">以副档名作为语法关键字，予以补齐</td>
+</tr>
+</tbody></table>
+<h2 id="5-环境设定参数"><a href="#5-环境设定参数" class="headerlink" title="5.环境设定参数"></a>5.环境设定参数</h2><table>
+<thead>
+<tr>
+<th align="center">操作</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">:set nu</td>
+<td align="center">设定行号</td>
+</tr>
+<tr>
+<td align="center">:set nonu</td>
+<td align="center">取消行号</td>
+</tr>
+<tr>
+<td align="center">:set hlsearch</td>
+<td align="center">搜索到的关键字反白显示 <strong>（默认）</strong></td>
+</tr>
+<tr>
+<td align="center">:set nohlsearch</td>
+<td align="center">搜索到的关键字取消反白显示</td>
+</tr>
+<tr>
+<td align="center">:set autoindent</td>
+<td align="center">自动缩排 <strong>（默认）</strong></td>
+</tr>
+<tr>
+<td align="center">:set noautoindent</td>
+<td align="center">不自动缩排</td>
+</tr>
+<tr>
+<td align="center">:set backup</td>
+<td align="center">自动存储备份档（备份档名为 filename~）</td>
+</tr>
+<tr>
+<td align="center">:set ruler</td>
+<td align="center">显示右下角状态说明</td>
+</tr>
+<tr>
+<td align="center">:set showmode</td>
+<td align="center">显示左下角状态说明（比如 INSERT）</td>
+</tr>
+<tr>
+<td align="center">:set backspace=(012)</td>
+<td align="center">倒退键设置；2：可以删除任意值；0 或者 1，仅可删除刚刚输入的字符，无法删除原来就存在的字符</td>
+</tr>
+<tr>
+<td align="center">:set all</td>
+<td align="center">显示所有环境参数设定值</td>
+</tr>
+<tr>
+<td align="center">:set</td>
+<td align="center">显示与系统默认值不同的设定值</td>
+</tr>
+<tr>
+<td align="center">:syntax on</td>
+<td align="center">开启语法着色</td>
+</tr>
+<tr>
+<td align="center">:syntax off</td>
+<td align="center">关闭语法着色</td>
+</tr>
+<tr>
+<td align="center">:set bg=dark</td>
+<td align="center">开启语法着色深色方案</td>
+</tr>
+<tr>
+<td align="center">:set bg=light</td>
+<td align="center">开启语法着色浅色方案 <strong>（默认）</strong></td>
+</tr>
+</tbody></table>
       
     </div>
     
@@ -932,7 +1102,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-一般命令模式"><span class="nav-text">1.一般命令模式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-移动光标"><span class="nav-text">1.移动光标</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-搜索与替换"><span class="nav-text">2.搜索与替换</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-删除、复制与粘贴"><span class="nav-text">3.删除、复制与粘贴</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-编辑模式"><span class="nav-text">2.编辑模式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-命令行模式"><span class="nav-text">3.命令行模式</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-Vi"><span class="nav-text">1.Vi</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-一般命令模式"><span class="nav-text">1.一般命令模式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-移动光标"><span class="nav-text">1.移动光标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-搜索与替换"><span class="nav-text">2.搜索与替换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-删除、复制与粘贴"><span class="nav-text">3.删除、复制与粘贴</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-编辑模式"><span class="nav-text">2.编辑模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-命令行模式"><span class="nav-text">3.命令行模式</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-Vim特有功能"><span class="nav-text">2.Vim特有功能</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-区域选择"><span class="nav-text">1.区域选择</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-多文件编辑"><span class="nav-text">2.多文件编辑</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-多窗口功能"><span class="nav-text">3.多窗口功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-补齐"><span class="nav-text">4.补齐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-环境设定参数"><span class="nav-text">5.环境设定参数</span></a></li></ol></li></ol></div>
             
 
           </div>
