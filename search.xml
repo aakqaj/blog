@@ -12,51 +12,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客写入及样式操作</title>
-    <url>/blog/2020/05/11/%E5%8D%9A%E5%AE%A2%E5%86%99%E5%85%A5%E5%8F%8A%E6%A0%B7%E5%BC%8F%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[<h1 id="写入博客"><a href="#写入博客" class="headerlink" title="写入博客"></a>写入博客</h1><p><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></p>
-<p><img src="https://i.loli.net/2020/05/11/Ezi6CTNhjfUAxHm.png" alt="image-20200511163530382"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"你的文章标题"</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="https://i.loli.net/2020/05/11/GktlZRmTxMswSKW.png" alt="image-20200511162138471"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">你要编写的文章的相对目录: Hexo/blog/<span class="built_in">source</span>/_posts</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://i.loli.net/2020/05/11/ewbP94MgY3S7G6A.png" alt="image-20200511163809864"></p>
-<p><img src="https://i.loli.net/2020/05/11/oKjtCSTBuYxW8dn.png" alt="image-20200511161416364"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">title: 标题</span><br><span class="line">tags: 标签</span><br><span class="line">categories: 分类</span><br></pre></td></tr></table></figure>
-
-<p>写文章需要一定的markdown基础，</p>
-<p><a href="https://aakqaj.github.io/blog/2020/05/11/MarkDown基本语法/" target="_blank" rel="noopener">markdown语法</a></p>
-<h1 id="配置样式"><a href="#配置样式" class="headerlink" title="配置样式"></a>配置样式</h1><p>这个有点烦，就是设计博客排版，功能，有时间把这个补上</p>
-<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#插入图片" target="_blank" rel="noopener">这个就不错</a></p>
-<h1 id="命令行操作检查博客及上传到互联网"><a href="#命令行操作检查博客及上传到互联网" class="headerlink" title="命令行操作检查博客及上传到互联网"></a>命令行操作检查博客及上传到互联网</h1><h2 id="在本地打开博客-–-用以检查"><a href="#在本地打开博客-–-用以检查" class="headerlink" title="在本地打开博客 – 用以检查"></a>在本地打开博客 – 用以检查</h2><h5 id=""><a href="#" class="headerlink" title=""></a><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></h5><p><img src="https://i.loli.net/2020/05/11/URZQaJrEqVHuzLA.png" alt="image-20200511111116947"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://i.loli.net/2020/05/11/NFrbWAeR7zQL2BS.png" alt="image-20200511111454970"></p>
-<p>在网址框内输入 ：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">localhost:4000/blog/</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://i.loli.net/2020/05/11/twIg8xAGhiTqBzk.png" alt="image-20200511112824162"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Ctrl + C 退出,&lt;此时网页不能刷新&gt;</span><br></pre></td></tr></table></figure>
-
-
-
-<p><img src="https://i.loli.net/2020/05/11/PdHgat1G7mTs5r4.png" alt="image-20200511113002139"></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">上传到互联网</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>入门学习</category>
-      </categories>
-      <tags>
-        <tag>启程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>MarkDown基本语法</title>
     <url>/blog/2020/05/11/MarkDown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h1 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h1><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 一级标题</span></span><br><span class="line"></span><br><span class="line"><span class="comment">## 二级标题</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### 三级标题</span></span><br></pre></td></tr></table></figure>
@@ -156,31 +111,67 @@
       </tags>
   </entry>
   <entry>
-    <title>Linux基础命令</title>
-    <url>/blog/2020/05/11/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="一。文件目录操作"><a href="#一。文件目录操作" class="headerlink" title="一。文件目录操作"></a>一。文件目录操作</h1><h2 id="1-ls-选项-目录"><a href="#1-ls-选项-目录" class="headerlink" title="1.ls [选项][目录]"></a>1.ls [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-l ：列出长数据串，包含文件的属性与权限数据等</span><br><span class="line">-a ：列出全部的文件，连同隐藏文件（开头为.的文件）一起列出来（常用）</span><br><span class="line">-d ：仅列出目录本身，而不是列出目录的文件数据</span><br><span class="line">-h ：将文件容量以较易读的方式（GB，kB等）列出来</span><br><span class="line">-R ：连同子目录的内容一起列出（递归列出），等于该目录下的所有文件都会显示出来</span><br></pre></td></tr></table></figure>
+    <title>CommendLine</title>
+    <url>/blog/2020/06/11/CommendLine/</url>
+    <content><![CDATA[<h1 id="echo"><a href="#echo" class="headerlink" title="echo"></a>echo</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span>  string                                              </span><br><span class="line">        <span class="comment"># 输出字符串</span></span><br><span class="line"><span class="built_in">echo</span>  <span class="variable">$PWD</span>                                       </span><br><span class="line">        <span class="comment">#$为变量 同理亦有PATH ,HOME ...</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="pwd-Print-Working-Directory"><a href="#pwd-Print-Working-Directory" class="headerlink" title="pwd (Print Working Directory)"></a>pwd (Print Working Directory)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">pwd</span>                                                                     </span><br><span class="line">        <span class="comment">#显示当前工作目录</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="ls-List-Directory"><a href="#ls-List-Directory" class="headerlink" title="ls (List Directory)"></a>ls (List Directory)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ls                                                                      </span><br><span class="line">        <span class="comment">#显示该目录下文件</span></span><br><span class="line">ls -l                                                                  </span><br><span class="line">        <span class="comment">#以列表形式显示该目录下文件</span></span><br><span class="line">ls -l -a == -la                                                          </span><br><span class="line">        <span class="comment">#在上述条件下追加隐藏文件</span></span><br><span class="line">ls -lh                                                                  </span><br><span class="line">        <span class="comment">#human，以人易于理解的方式显示件</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="cd-Change-Directory"><a href="#cd-Change-Directory" class="headerlink" title="cd (Change Directory)"></a>cd (Change Directory)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /tmp/<span class="built_in">test</span>    </span><br><span class="line">	    <span class="comment">#以绝对路径跳转</span></span><br><span class="line"><span class="built_in">cd</span> ../1d</span><br><span class="line">		<span class="comment">#以相对路径跳转</span></span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line">		<span class="comment">#返回上级目录</span></span><br><span class="line"><span class="built_in">cd</span> ../.. </span><br><span class="line">		<span class="comment">#返回上两级目录</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">		<span class="comment">#返回家目录</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="mkdir"><a href="#mkdir" class="headerlink" title="mkdir"></a>mkdir</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir newfile</span><br><span class="line">		<span class="comment">#新建文件夹</span></span><br><span class="line">mkdir -p 1/2/3/4/5</span><br><span class="line">		<span class="comment">#新建多级文件夹</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="touch-nano"><a href="#touch-nano" class="headerlink" title="touch /nano"></a>touch /nano</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">touch 1.txt</span><br><span class="line">nano 1.txt</span><br><span class="line">		<span class="comment">#创建名为1.txt的文件</span></span><br></pre></td></tr></table></figure>
 
 
 
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ls -al /home   <span class="comment">#列出 home 目录下的所有文件和目录的详细资料。</span></span><br><span class="line">ls -l d*       <span class="comment">#列出当前目录下所有以"d"开头的文件目录详情内容。</span></span><br></pre></td></tr></table></figure>
+<h1 id="rm"><a href="#rm" class="headerlink" title="rm"></a>rm</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rm 1.txt</span><br><span class="line">		<span class="comment">#删除1.txt</span></span><br><span class="line">rm -r 1</span><br><span class="line">		<span class="comment">#删除名为1的文件夹</span></span><br><span class="line">rm -rf 1</span><br><span class="line">		<span class="comment">#强制删除，无需回复</span></span><br><span class="line">linux下删除指定目录结构下的特定文件</span><br><span class="line">find alipay-demo -<span class="built_in">type</span> d -name <span class="string">"__pycache__"</span> -<span class="built_in">exec</span> rm -rf &#123;&#125; \;</span><br><span class="line">1.alipay-demo：为待查询的开始目录，从此目录开始搜索，包括本目录下的子目录</span><br><span class="line">2.-<span class="built_in">type</span> d：文件类型为目录 若目标文件是普通文件，则使用-<span class="built_in">type</span> f</span><br><span class="line">3.-name <span class="string">"__pychche__"</span>：指定待删除的目录名（此处可以使用正则表达式匹配目标文件或目录）:*.*</span><br><span class="line">4.-<span class="built_in">exec</span> rm -rf &#123;&#125; <span class="built_in">exec</span>要执行的命令</span><br><span class="line">* &#123;&#125;与\ 之间需要加空格</span><br></pre></td></tr></table></figure>
 
-<h2 id="2-cd"><a href="#2-cd" class="headerlink" title="2.cd"></a>2.cd</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> [目录名]</span><br></pre></td></tr></table></figure>
+<h1 id="复制，剪切命令"><a href="#复制，剪切命令" class="headerlink" title="复制，剪切命令"></a>复制，剪切命令</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cp 1.txt 1_cp.txt</span><br><span class="line">		<span class="comment">#复制1.txt在该目录中并将之命名为1_cp.txt</span></span><br><span class="line">cp 1.txt 绝对/相对路径</span><br><span class="line">		<span class="comment">#将1.txt复制到对应目录</span></span><br><span class="line">cp dir1/a.doc dir2 </span><br><span class="line">		<span class="comment">#表示将dir1下的a.doc文件复制到dir2目录下</span></span><br><span class="line">cp -r dir1 dir2 </span><br><span class="line">		<span class="comment">#表示将dir1及其dir1下所包含的文件复制到dir2下</span></span><br><span class="line">mv 1.txt 2.txt</span><br><span class="line">		<span class="comment">#将1.txt重命名为2.txt，可修改文件夹</span></span><br><span class="line">mv 1.txt 绝对/相对路径</span><br><span class="line">		<span class="comment">#将1.txt剪切到对应目录，可修改文件夹</span></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /           <span class="comment">#从当前目录进入系统根目录</span></span><br><span class="line"><span class="built_in">cd</span> /home/bin   <span class="comment">#跳转到 home/bin</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="3-pwd"><a href="#3-pwd" class="headerlink" title="3.pwd"></a>3.pwd</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">pwd</span>            <span class="comment">#查看"当前工作目录"的完整路径</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="4-mkdir-选项-目录"><a href="#4-mkdir-选项-目录" class="headerlink" title="4.mkdir [选项][目录]"></a>4.mkdir [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-p, --parents 可以是一个路径名称。此时若路径中的某些目录尚不存在,加上此选项后,系统将自动建立好那些尚不存在的目录,即一次可以建立多个目录;</span><br><span class="line">--<span class="built_in">help</span> 显示此帮助信息并退出</span><br><span class="line">-v, --verbose 每次创建新目录都显示信息</span><br></pre></td></tr></table></figure>
+<h1 id="压缩，解压"><a href="#压缩，解压" class="headerlink" title="压缩，解压"></a>压缩，解压</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">压缩 </span><br><span class="line">zip :       zip  *.zip  *.*</span><br><span class="line">tar :       tar -cvf *.tar  *.*	</span><br><span class="line">      	<span class="comment">#打包不压缩</span></span><br><span class="line">tar. gz :   tar -zcvf  *.tar. gz  *.*     </span><br><span class="line">tar. bz2 :  tar -jcvf *.tar.bz2 *.*</span><br><span class="line">tar.xz : tar -Jcvf *.tar.xz *.*</span><br><span class="line"></span><br><span class="line">解压 </span><br><span class="line">zip :       unzip  *.zip          or   unzip  *.zip  -d 路径 </span><br><span class="line">tar :     	tar -xvf  *.tar       or   tar -xvf  *.tar  -C 路径 </span><br><span class="line">tar.gz  :   tar -zxvf  *.tar. gz  or   tar -zxvf  *.tar.gz -C 路径 </span><br><span class="line">tar. bz2 :  tar -jxvf  *.tar.bz2  or   tar -jxvf *.tar.bz2 -C</span><br><span class="line">路径</span><br><span class="line">tar.xz :    tar -Jxvf *.tar.xz    or   tar -Jxvf *.tar.xz -C 路径</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir <span class="built_in">test</span>     <span class="comment">#创建一个空目录</span></span><br><span class="line">mkdir <span class="built_in">test</span>/t1  <span class="comment">#递归创建多个目录</span></span><br><span class="line">mkdir -v <span class="built_in">test</span>  <span class="comment">#创建目录都显示信息</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="5-rm-选项-目录"><a href="#5-rm-选项-目录" class="headerlink" title="5.rm [选项][目录]"></a>5.rm [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-f, --force 忽略不存在的文件，从不给出提示。</span><br><span class="line">-i, --interactive 进行交互式删除</span><br><span class="line">-r, -R, --recursive 指示rm将参数中列出的全部目录和子目录均递归地删除。</span><br><span class="line">-v, --verbose 详细显示进行的步骤</span><br><span class="line">--<span class="built_in">help</span> 显示此帮助信息并退出</span><br><span class="line">--version 输出版本信息并退出</span><br><span class="line">————————————————————————————————————————————————————————————</span><br><span class="line">rmdir 命令  该命令从一个目录中删除一个或多个子目录项，删除某目录时也必须具有对父目录的写权限</span><br><span class="line">rmdir [选项] 目录</span><br><span class="line">-p 递归删除目录dirname，当子目录删除后其父目录为空时，也一同被删除。如果整个路径被删除或者由于某种原因保留部分路径，则系统在标准输出上显示相应的信息。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-v, --verbose 显示指令执行过程</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rm test.txt    <span class="comment">#删除文件 test.txt,系统会提示是否删除</span></span><br><span class="line">rm -f test.txt <span class="comment">#强制删除 test.txt，系统不再提示</span></span><br><span class="line">rm -r <span class="built_in">test</span>     <span class="comment">#将 test 子目录及目录中所有档案删除</span></span><br><span class="line">sudo rm -rf /* <span class="comment">#sudo以管理员身份运行 rm ReMove移除 rf RubbishFile垃圾文件</span></span><br><span class="line">//一天一次，清理垃圾，保持系统流畅运行</span><br><span class="line">————————————————————————————————————————————————————————————</span><br><span class="line">rmdir test1    <span class="comment">#删除空目录 test1，非空目录无法删除</span></span><br><span class="line">rmdir -p test2 <span class="comment"># test 目录下仅有 test2 #当子目录被删除后使它也成为空目录的话，则顺便一并删除</span></span><br></pre></td></tr></table></figure>
+<h1 id="find-查找文件"><a href="#find-查找文件" class="headerlink" title="find (查找文件)"></a>find (查找文件)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">find ./ -name test.h</span><br><span class="line">		<span class="comment">#查找当前目录名为test.h的文件</span></span><br><span class="line">find ./ -name <span class="string">"*.sh*"</span></span><br><span class="line">		<span class="comment">#查看当前目录下后缀含有.sh的文件</span></span><br><span class="line">find ./ -name <span class="string">"[A-Z]"</span></span><br><span class="line">		<span class="comment">#查看当前目录下以大写字母开头的文件</span></span><br><span class="line">find /tmp -size 2M</span><br><span class="line">		<span class="comment">#查看/tmp下等于2M的文件</span></span><br><span class="line">find ./ -size +2M /*or*/ -2M </span><br><span class="line">		<span class="comment">#查看当前目录下大于/小于2M的文件</span></span><br><span class="line">find ./ -size +4K -size -5M</span><br><span class="line">		<span class="comment">#查看当前目录下大于4K小于5M的文件</span></span><br><span class="line">find ./ -perm 777</span><br><span class="line">		<span class="comment">#查看当前目录下权限为777的文件或目录</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="6-mv-选项-源文件或目录-目标文件或目录"><a href="#6-mv-选项-源文件或目录-目标文件或目录" class="headerlink" title="6. mv [选项] 源文件或目录 目标文件或目录"></a>6. mv [选项] 源文件或目录 目标文件或目录</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-b ：若需覆盖文件，则覆盖前先行备份</span><br><span class="line">-f ：force 强制的意思，如果目标文件已经存在，不会询问而直接覆盖</span><br><span class="line">-i ：若目标文件 (destination) 已经存在时，就会询问是否覆盖</span><br><span class="line">-u ：若目标文件已经存在，且 <span class="built_in">source</span> 比较新，才会更新(update)</span><br><span class="line">-t ： --target-directory=DIRECTORY move all SOURCE arguments into DIRECTORY，即指定mv的目标目录，该选项适用于移动多个源文件到一个目录的情况，此时目标目录在前，源文件在后</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mv test1.txt test2.txt <span class="comment">#将 test1.txt 重命名为 test2.txt</span></span><br><span class="line">mv test1.txt test2     <span class="comment">#移动文件 test1.txt 到目录 test2</span></span><br><span class="line">mv test1.txt test2.txt test3.txt test3 <span class="comment">#将文件 test1.txt、test2.txt、test3.txt 移动到目录 test3</span></span><br></pre></td></tr></table></figure>]]></content>
+
+<h1 id="man-Manual-用户手册"><a href="#man-Manual-用户手册" class="headerlink" title="man (Manual | 用户手册)"></a>man (Manual | 用户手册)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">man <span class="built_in">pwd</span></span><br><span class="line">        <span class="comment">#显示pwd的用户手册</span></span><br><span class="line">man man</span><br><span class="line">        <span class="comment">#显示man的用户手册</span></span><br><span class="line">man -h</span><br><span class="line">        <span class="comment">#同上，效果不如</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="cat-Concatenate-and-print-files-打印文件内容"><a href="#cat-Concatenate-and-print-files-打印文件内容" class="headerlink" title="cat (Concatenate and print files | 打印文件内容)"></a>cat (Concatenate and print files | 打印文件内容)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat a.txt -n</span><br><span class="line">        <span class="comment">#打印a.txt的内容 显示行号</span></span><br><span class="line">cat a.txt b.txt</span><br><span class="line">        <span class="comment">#打印a.txt,b.txt内容</span></span><br><span class="line">cat &lt; a.txt</span><br><span class="line">        <span class="comment">#将内容重定向到a.txt中，类似与C++中流提取</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="head-and-tail-打印头尾部"><a href="#head-and-tail-打印头尾部" class="headerlink" title="head and tail (打印头尾部)"></a>head and tail (打印头尾部)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">head a.txt</span><br><span class="line">        <span class="comment">#打印a.txt前5行</span></span><br><span class="line">tail b.txt</span><br><span class="line">        <span class="comment">#打印b.txt后5行</span></span><br><span class="line">tail -n 11 a.txt</span><br><span class="line">        <span class="comment">#打印a.txt后11行</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="less-交互浏览"><a href="#less-交互浏览" class="headerlink" title="less  (交互浏览)"></a>less  (交互浏览)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">less a.txt</span><br><span class="line">        <span class="comment">#交互浏览 输入 /内容 即可查询，观感不如grep</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="grep-查询"><a href="#grep-查询" class="headerlink" title="grep (查询)"></a>grep (查询)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat 1.txt | grep 1 </span><br><span class="line">        <span class="comment">#查询命令 查询 1.txt 有无 1 ，grep -n 可显示行号</span></span><br><span class="line"> grep 1 1.txt</span><br><span class="line"> 		<span class="comment">#同上</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="cal-date-查看当前日期时间"><a href="#cal-date-查看当前日期时间" class="headerlink" title="cal date (查看当前日期时间)"></a>cal date (查看当前日期时间)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cal	</span><br><span class="line">		<span class="comment">#查看当前日历，只有该月</span></span><br><span class="line">cal -y 2020 </span><br><span class="line">		<span class="comment">#查看2020年全部日历</span></span><br><span class="line">date</span><br><span class="line">		<span class="comment">#查看当前时间</span></span><br><span class="line">date <span class="string">"+%Y==**%m==**%d"</span></span><br><span class="line">		<span class="comment">#设置样式</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="ps-top-kill-查看系统进程，结束进程"><a href="#ps-top-kill-查看系统进程，结束进程" class="headerlink" title="ps top kill(查看系统进程，结束进程)"></a>ps top kill(查看系统进程，结束进程)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ps -aux</span><br><span class="line">		<span class="comment">#静态打印系统各项指标</span></span><br><span class="line">top</span><br><span class="line">		<span class="comment">#动态打印系统各项指标</span></span><br><span class="line">htop	</span><br><span class="line">		<span class="comment">#以图像形式动态打印系统各项指标</span></span><br><span class="line"><span class="built_in">kill</span> PID</span><br><span class="line">		<span class="comment">#输入想结束进程的PID,结束进程</span></span><br><span class="line"><span class="built_in">kill</span> -9 PID</span><br><span class="line">		<span class="comment">#强制结束进程</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="tree"><a href="#tree" class="headerlink" title="tree"></a>tree</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">tree </span><br><span class="line">		<span class="comment">#以树状结构打印当前目录所有子项</span></span><br><span class="line">tree 文件夹名[相对路径/绝对路径]</span><br><span class="line">		<span class="comment">#以树状结构打印指定目录的所有子项</span></span><br><span class="line">tree -L 1 文件夹名，也可以没有输入量效果同第一个</span><br><span class="line">		<span class="comment">#以树状结构打印当前目录第一级子项,数字变成几就打印到第几级</span></span><br><span class="line">tree | grep txt</span><br><span class="line">		<span class="comment">#管道前语法参考上述三例，查找名为 txt 的文件并以树状结构打印</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="wc-Word-line-and-byet-Count-显示-行数-单词数-大小"><a href="#wc-Word-line-and-byet-Count-显示-行数-单词数-大小" class="headerlink" title="wc (Word ,line and byet Count | 显示 行数 单词数 大小)"></a>wc (Word ,line and byet Count | 显示 行数 单词数 大小)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">man wc | wc</span><br><span class="line">		<span class="comment">#显示 行数 单词数 大小</span></span><br><span class="line">cat a.txt | wc</span><br></pre></td></tr></table></figure>
+
+<h1 id="chmod-Change-Mode-更改文件权限"><a href="#chmod-Change-Mode-更改文件权限" class="headerlink" title="chmod (Change Mode | 更改文件权限)"></a>chmod (Change Mode | 更改文件权限)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">chmod 777 文件名</span><br><span class="line">		<span class="comment">#赋予文件最高权限</span></span><br><span class="line">chmode +x 文件名</span><br><span class="line">		<span class="comment">#增加可执行权限 / +w +r</span></span><br><span class="line">chmode -x 文件名</span><br><span class="line">		<span class="comment">#移除可执行权限 / -w -r</span></span><br><span class="line">chmode 740 文件名</span><br><span class="line">		<span class="comment">#把文件权限设置改为 740</span></span><br><span class="line">		Owner:  rxw = 可执行 + 可写 + 可读 </span><br><span class="line">		Group:  rxw = ...</span><br><span class="line">		Others: rxw = ...</span><br><span class="line">		d第三个权限一般开为1</span><br><span class="line">		数字计算方法：</span><br><span class="line">		0代表关闭 1代表开启 onwer全开启: 二进制：111 八进制 ：7</span><br><span class="line">		group，others同上</span><br><span class="line">		常见: </span><br><span class="line">		644 -rw-r--r-- <span class="comment"># default</span></span><br><span class="line">		755 -rwxr-xr-x</span><br><span class="line">		777 -rwxrwxrwx <span class="comment">#没事别乱用</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="软件操作"><a href="#软件操作" class="headerlink" title="软件操作"></a>软件操作</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo deb dpkj -i *.deb <span class="comment">#*为文件名</span></span><br><span class="line">		<span class="comment">#安装软件</span></span><br><span class="line">dpkj -l | grep *</span><br><span class="line">		<span class="comment">#查找软件</span></span><br><span class="line">sudo dpkj -r *</span><br><span class="line">		<span class="comment">#卸载软件</span></span><br><span class="line">sudo dpkj -P *</span><br><span class="line">		<span class="comment">#卸载软件的配置文件</span></span><br><span class="line">sudo apt-get install + 软件名称</span><br><span class="line">		<span class="comment">#搜索并安装软件</span></span><br><span class="line">sudo apt update</span><br><span class="line">		<span class="comment">#更新配置，大多数安装前都要运行下</span></span><br><span class="line">sudo apt upgrade</span><br><span class="line">		<span class="comment">#没事就运行下</span></span><br><span class="line">sudo apt remove + 软件名称</span><br><span class="line">		<span class="comment">#移除软件包</span></span><br><span class="line">sudo apt purge + 软件名称</span><br><span class="line">		<span class="comment">#清除配置文件</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h1 id="重定向和管道"><a href="#重定向和管道" class="headerlink" title="重定向和管道"></a>重定向和管道</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1. 重定向: 改变输入输出设备</span><br><span class="line"><span class="built_in">echo</span> hello &gt; hello.txt</span><br><span class="line">		<span class="comment">#输入hello到hello.txt中</span></span><br><span class="line"><span class="built_in">echo</span> world &gt;&gt; hello.txt</span><br><span class="line">		<span class="comment">#输入world到hello.txt中紧接文章末尾且换行，避免被覆盖</span></span><br><span class="line">2.管道:将前一个命令的标准输入作为下一个程序的标准输出</span><br><span class="line">man less | grep sim | grep -n that &gt;that.txt</span><br><span class="line">cat class  | grep 3 | grep 4 -n</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>命令行</category>
       </categories>
@@ -691,67 +682,88 @@
       </tags>
   </entry>
   <entry>
-    <title>CommendLine</title>
-    <url>/blog/2020/06/11/CommendLine/</url>
-    <content><![CDATA[<h1 id="echo"><a href="#echo" class="headerlink" title="echo"></a>echo</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span>  string                                              </span><br><span class="line">        <span class="comment"># 输出字符串</span></span><br><span class="line"><span class="built_in">echo</span>  <span class="variable">$PWD</span>                                       </span><br><span class="line">        <span class="comment">#$为变量 同理亦有PATH ,HOME ...</span></span><br></pre></td></tr></table></figure>
+    <title>博客写入及样式操作</title>
+    <url>/blog/2020/05/11/%E5%8D%9A%E5%AE%A2%E5%86%99%E5%85%A5%E5%8F%8A%E6%A0%B7%E5%BC%8F%E6%93%8D%E4%BD%9C/</url>
+    <content><![CDATA[<h1 id="写入博客"><a href="#写入博客" class="headerlink" title="写入博客"></a>写入博客</h1><p><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></p>
+<p><img src="https://i.loli.net/2020/05/11/Ezi6CTNhjfUAxHm.png" alt="image-20200511163530382"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"你的文章标题"</span></span><br></pre></td></tr></table></figure>
 
-<h1 id="pwd-Print-Working-Directory"><a href="#pwd-Print-Working-Directory" class="headerlink" title="pwd (Print Working Directory)"></a>pwd (Print Working Directory)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">pwd</span>                                                                     </span><br><span class="line">        <span class="comment">#显示当前工作目录</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2020/05/11/GktlZRmTxMswSKW.png" alt="image-20200511162138471"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">你要编写的文章的相对目录: Hexo/blog/<span class="built_in">source</span>/_posts</span><br></pre></td></tr></table></figure>
 
-<h1 id="ls-List-Directory"><a href="#ls-List-Directory" class="headerlink" title="ls (List Directory)"></a>ls (List Directory)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ls                                                                      </span><br><span class="line">        <span class="comment">#显示该目录下文件</span></span><br><span class="line">ls -l                                                                  </span><br><span class="line">        <span class="comment">#以列表形式显示该目录下文件</span></span><br><span class="line">ls -l -a == -la                                                          </span><br><span class="line">        <span class="comment">#在上述条件下追加隐藏文件</span></span><br><span class="line">ls -lh                                                                  </span><br><span class="line">        <span class="comment">#human，以人易于理解的方式显示件</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2020/05/11/ewbP94MgY3S7G6A.png" alt="image-20200511163809864"></p>
+<p><img src="https://i.loli.net/2020/05/11/oKjtCSTBuYxW8dn.png" alt="image-20200511161416364"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">title: 标题</span><br><span class="line">tags: 标签</span><br><span class="line">categories: 分类</span><br></pre></td></tr></table></figure>
 
-<h1 id="cd-Change-Directory"><a href="#cd-Change-Directory" class="headerlink" title="cd (Change Directory)"></a>cd (Change Directory)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /tmp/<span class="built_in">test</span>    </span><br><span class="line">	    <span class="comment">#以绝对路径跳转</span></span><br><span class="line"><span class="built_in">cd</span> ../1d</span><br><span class="line">		<span class="comment">#以相对路径跳转</span></span><br><span class="line"><span class="built_in">cd</span> ..</span><br><span class="line">		<span class="comment">#返回上级目录</span></span><br><span class="line"><span class="built_in">cd</span> ../.. </span><br><span class="line">		<span class="comment">#返回上两级目录</span></span><br><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">		<span class="comment">#返回家目录</span></span><br></pre></td></tr></table></figure>
+<p>写文章需要一定的markdown基础，</p>
+<p><a href="https://aakqaj.github.io/blog/2020/05/11/MarkDown基本语法/" target="_blank" rel="noopener">markdown语法</a></p>
+<h1 id="配置样式"><a href="#配置样式" class="headerlink" title="配置样式"></a>配置样式</h1><p>这个有点烦，就是设计博客排版，功能，有时间把这个补上</p>
+<p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#插入图片" target="_blank" rel="noopener">这个就不错</a></p>
+<h1 id="命令行操作检查博客及上传到互联网"><a href="#命令行操作检查博客及上传到互联网" class="headerlink" title="命令行操作检查博客及上传到互联网"></a>命令行操作检查博客及上传到互联网</h1><h2 id="在本地打开博客-–-用以检查"><a href="#在本地打开博客-–-用以检查" class="headerlink" title="在本地打开博客 – 用以检查"></a>在本地打开博客 – 用以检查</h2><h5 id=""><a href="#" class="headerlink" title=""></a><img src="https://i.loli.net/2020/05/11/cmKVn5ZdYXvSCBH.png" alt="image-20200511111227813"></h5><p><img src="https://i.loli.net/2020/05/11/URZQaJrEqVHuzLA.png" alt="image-20200511111116947"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
 
-<h1 id="mkdir"><a href="#mkdir" class="headerlink" title="mkdir"></a>mkdir</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir newfile</span><br><span class="line">		<span class="comment">#新建文件夹</span></span><br><span class="line">mkdir -p 1/2/3/4/5</span><br><span class="line">		<span class="comment">#新建多级文件夹</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2020/05/11/NFrbWAeR7zQL2BS.png" alt="image-20200511111454970"></p>
+<p>在网址框内输入 ：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">localhost:4000/blog/</span><br></pre></td></tr></table></figure>
 
-<h1 id="touch-nano"><a href="#touch-nano" class="headerlink" title="touch /nano"></a>touch /nano</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">touch 1.txt</span><br><span class="line">nano 1.txt</span><br><span class="line">		<span class="comment">#创建名为1.txt的文件</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h1 id="rm"><a href="#rm" class="headerlink" title="rm"></a>rm</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rm 1.txt</span><br><span class="line">		<span class="comment">#删除1.txt</span></span><br><span class="line">rm -r 1</span><br><span class="line">		<span class="comment">#删除名为1的文件夹</span></span><br><span class="line">rm -rf 1</span><br><span class="line">		<span class="comment">#强制删除，无需回复</span></span><br><span class="line">linux下删除指定目录结构下的特定文件</span><br><span class="line">find alipay-demo -<span class="built_in">type</span> d -name <span class="string">"__pycache__"</span> -<span class="built_in">exec</span> rm -rf &#123;&#125; \;</span><br><span class="line">1.alipay-demo：为待查询的开始目录，从此目录开始搜索，包括本目录下的子目录</span><br><span class="line">2.-<span class="built_in">type</span> d：文件类型为目录 若目标文件是普通文件，则使用-<span class="built_in">type</span> f</span><br><span class="line">3.-name <span class="string">"__pychche__"</span>：指定待删除的目录名（此处可以使用正则表达式匹配目标文件或目录）:*.*</span><br><span class="line">4.-<span class="built_in">exec</span> rm -rf &#123;&#125; <span class="built_in">exec</span>要执行的命令</span><br><span class="line">* &#123;&#125;与\ 之间需要加空格</span><br></pre></td></tr></table></figure>
-
-<h1 id="复制，剪切命令"><a href="#复制，剪切命令" class="headerlink" title="复制，剪切命令"></a>复制，剪切命令</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cp 1.txt 1_cp.txt</span><br><span class="line">		<span class="comment">#复制1.txt在该目录中并将之命名为1_cp.txt</span></span><br><span class="line">cp 1.txt 绝对/相对路径</span><br><span class="line">		<span class="comment">#将1.txt复制到对应目录</span></span><br><span class="line">cp dir1/a.doc dir2 </span><br><span class="line">		<span class="comment">#表示将dir1下的a.doc文件复制到dir2目录下</span></span><br><span class="line">cp -r dir1 dir2 </span><br><span class="line">		<span class="comment">#表示将dir1及其dir1下所包含的文件复制到dir2下</span></span><br><span class="line">mv 1.txt 2.txt</span><br><span class="line">		<span class="comment">#将1.txt重命名为2.txt，可修改文件夹</span></span><br><span class="line">mv 1.txt 绝对/相对路径</span><br><span class="line">		<span class="comment">#将1.txt剪切到对应目录，可修改文件夹</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h1 id="压缩，解压"><a href="#压缩，解压" class="headerlink" title="压缩，解压"></a>压缩，解压</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">压缩 </span><br><span class="line">zip :       zip  *.zip  *.*</span><br><span class="line">tar :       tar -cvf *.tar  *.*	</span><br><span class="line">      	<span class="comment">#打包不压缩</span></span><br><span class="line">tar. gz :   tar -zcvf  *.tar. gz  *.*     </span><br><span class="line">tar. bz2 :  tar -jcvf *.tar.bz2 *.*</span><br><span class="line">tar.xz : tar -Jcvf *.tar.xz *.*</span><br><span class="line"></span><br><span class="line">解压 </span><br><span class="line">zip :       unzip  *.zip          or   unzip  *.zip  -d 路径 </span><br><span class="line">tar :     	tar -xvf  *.tar       or   tar -xvf  *.tar  -C 路径 </span><br><span class="line">tar.gz  :   tar -zxvf  *.tar. gz  or   tar -zxvf  *.tar.gz -C 路径 </span><br><span class="line">tar. bz2 :  tar -jxvf  *.tar.bz2  or   tar -jxvf *.tar.bz2 -C</span><br><span class="line">路径</span><br><span class="line">tar.xz :    tar -Jxvf *.tar.xz    or   tar -Jxvf *.tar.xz -C 路径</span><br></pre></td></tr></table></figure>
-
-
-
-<h1 id="find-查找文件"><a href="#find-查找文件" class="headerlink" title="find (查找文件)"></a>find (查找文件)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">find ./ -name test.h</span><br><span class="line">		<span class="comment">#查找当前目录名为test.h的文件</span></span><br><span class="line">find ./ -name <span class="string">"*.sh*"</span></span><br><span class="line">		<span class="comment">#查看当前目录下后缀含有.sh的文件</span></span><br><span class="line">find ./ -name <span class="string">"[A-Z]"</span></span><br><span class="line">		<span class="comment">#查看当前目录下以大写字母开头的文件</span></span><br><span class="line">find /tmp -size 2M</span><br><span class="line">		<span class="comment">#查看/tmp下等于2M的文件</span></span><br><span class="line">find ./ -size +2M /*or*/ -2M </span><br><span class="line">		<span class="comment">#查看当前目录下大于/小于2M的文件</span></span><br><span class="line">find ./ -size +4K -size -5M</span><br><span class="line">		<span class="comment">#查看当前目录下大于4K小于5M的文件</span></span><br><span class="line">find ./ -perm 777</span><br><span class="line">		<span class="comment">#查看当前目录下权限为777的文件或目录</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h1 id="man-Manual-用户手册"><a href="#man-Manual-用户手册" class="headerlink" title="man (Manual | 用户手册)"></a>man (Manual | 用户手册)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">man <span class="built_in">pwd</span></span><br><span class="line">        <span class="comment">#显示pwd的用户手册</span></span><br><span class="line">man man</span><br><span class="line">        <span class="comment">#显示man的用户手册</span></span><br><span class="line">man -h</span><br><span class="line">        <span class="comment">#同上，效果不如</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="cat-Concatenate-and-print-files-打印文件内容"><a href="#cat-Concatenate-and-print-files-打印文件内容" class="headerlink" title="cat (Concatenate and print files | 打印文件内容)"></a>cat (Concatenate and print files | 打印文件内容)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat a.txt -n</span><br><span class="line">        <span class="comment">#打印a.txt的内容 显示行号</span></span><br><span class="line">cat a.txt b.txt</span><br><span class="line">        <span class="comment">#打印a.txt,b.txt内容</span></span><br><span class="line">cat &lt; a.txt</span><br><span class="line">        <span class="comment">#将内容重定向到a.txt中，类似与C++中流提取</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="head-and-tail-打印头尾部"><a href="#head-and-tail-打印头尾部" class="headerlink" title="head and tail (打印头尾部)"></a>head and tail (打印头尾部)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">head a.txt</span><br><span class="line">        <span class="comment">#打印a.txt前5行</span></span><br><span class="line">tail b.txt</span><br><span class="line">        <span class="comment">#打印b.txt后5行</span></span><br><span class="line">tail -n 11 a.txt</span><br><span class="line">        <span class="comment">#打印a.txt后11行</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="less-交互浏览"><a href="#less-交互浏览" class="headerlink" title="less  (交互浏览)"></a>less  (交互浏览)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">less a.txt</span><br><span class="line">        <span class="comment">#交互浏览 输入 /内容 即可查询，观感不如grep</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="grep-查询"><a href="#grep-查询" class="headerlink" title="grep (查询)"></a>grep (查询)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cat 1.txt | grep 1 </span><br><span class="line">        <span class="comment">#查询命令 查询 1.txt 有无 1 ，grep -n 可显示行号</span></span><br><span class="line"> grep 1 1.txt</span><br><span class="line"> 		<span class="comment">#同上</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="cal-date-查看当前日期时间"><a href="#cal-date-查看当前日期时间" class="headerlink" title="cal date (查看当前日期时间)"></a>cal date (查看当前日期时间)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">cal	</span><br><span class="line">		<span class="comment">#查看当前日历，只有该月</span></span><br><span class="line">cal -y 2020 </span><br><span class="line">		<span class="comment">#查看2020年全部日历</span></span><br><span class="line">date</span><br><span class="line">		<span class="comment">#查看当前时间</span></span><br><span class="line">date <span class="string">"+%Y==**%m==**%d"</span></span><br><span class="line">		<span class="comment">#设置样式</span></span><br></pre></td></tr></table></figure>
-
-<h1 id="ps-top-kill-查看系统进程，结束进程"><a href="#ps-top-kill-查看系统进程，结束进程" class="headerlink" title="ps top kill(查看系统进程，结束进程)"></a>ps top kill(查看系统进程，结束进程)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ps -aux</span><br><span class="line">		<span class="comment">#静态打印系统各项指标</span></span><br><span class="line">top</span><br><span class="line">		<span class="comment">#动态打印系统各项指标</span></span><br><span class="line">htop	</span><br><span class="line">		<span class="comment">#以图像形式动态打印系统各项指标</span></span><br><span class="line"><span class="built_in">kill</span> PID</span><br><span class="line">		<span class="comment">#输入想结束进程的PID,结束进程</span></span><br><span class="line"><span class="built_in">kill</span> -9 PID</span><br><span class="line">		<span class="comment">#强制结束进程</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2020/05/11/twIg8xAGhiTqBzk.png" alt="image-20200511112824162"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Ctrl + C 退出,&lt;此时网页不能刷新&gt;</span><br></pre></td></tr></table></figure>
 
 
 
-<h1 id="tree"><a href="#tree" class="headerlink" title="tree"></a>tree</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">tree </span><br><span class="line">		<span class="comment">#以树状结构打印当前目录所有子项</span></span><br><span class="line">tree 文件夹名[相对路径/绝对路径]</span><br><span class="line">		<span class="comment">#以树状结构打印指定目录的所有子项</span></span><br><span class="line">tree -L 1 文件夹名，也可以没有输入量效果同第一个</span><br><span class="line">		<span class="comment">#以树状结构打印当前目录第一级子项,数字变成几就打印到第几级</span></span><br><span class="line">tree | grep txt</span><br><span class="line">		<span class="comment">#管道前语法参考上述三例，查找名为 txt 的文件并以树状结构打印</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2020/05/11/PdHgat1G7mTs5r4.png" alt="image-20200511113002139"></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">上传到互联网</span><br></pre></td></tr></table></figure>
 
 
 
-<h1 id="wc-Word-line-and-byet-Count-显示-行数-单词数-大小"><a href="#wc-Word-line-and-byet-Count-显示-行数-单词数-大小" class="headerlink" title="wc (Word ,line and byet Count | 显示 行数 单词数 大小)"></a>wc (Word ,line and byet Count | 显示 行数 单词数 大小)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">man wc | wc</span><br><span class="line">		<span class="comment">#显示 行数 单词数 大小</span></span><br><span class="line">cat a.txt | wc</span><br></pre></td></tr></table></figure>
-
-<h1 id="chmod-Change-Mode-更改文件权限"><a href="#chmod-Change-Mode-更改文件权限" class="headerlink" title="chmod (Change Mode | 更改文件权限)"></a>chmod (Change Mode | 更改文件权限)</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">chmod 777 文件名</span><br><span class="line">		<span class="comment">#赋予文件最高权限</span></span><br><span class="line">chmode +x 文件名</span><br><span class="line">		<span class="comment">#增加可执行权限 / +w +r</span></span><br><span class="line">chmode -x 文件名</span><br><span class="line">		<span class="comment">#移除可执行权限 / -w -r</span></span><br><span class="line">chmode 740 文件名</span><br><span class="line">		<span class="comment">#把文件权限设置改为 740</span></span><br><span class="line">		Owner:  rxw = 可执行 + 可写 + 可读 </span><br><span class="line">		Group:  rxw = ...</span><br><span class="line">		Others: rxw = ...</span><br><span class="line">		d第三个权限一般开为1</span><br><span class="line">		数字计算方法：</span><br><span class="line">		0代表关闭 1代表开启 onwer全开启: 二进制：111 八进制 ：7</span><br><span class="line">		group，others同上</span><br><span class="line">		常见: </span><br><span class="line">		644 -rw-r--r-- <span class="comment"># default</span></span><br><span class="line">		755 -rwxr-xr-x</span><br><span class="line">		777 -rwxrwxrwx <span class="comment">#没事别乱用</span></span><br></pre></td></tr></table></figure>
 
 
+]]></content>
+      <categories>
+        <category>入门学习</category>
+      </categories>
+      <tags>
+        <tag>启程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>new cc md</title>
+    <url>/blog/2021/05/24/new-cc-md/</url>
+    <content><![CDATA[<p>Demotext</p>
+]]></content>
+      <categories>
+        <category>Demo</category>
+      </categories>
+      <tags>
+        <tag>Demo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linux基础命令</title>
+    <url>/blog/2020/05/11/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="一。文件目录操作"><a href="#一。文件目录操作" class="headerlink" title="一。文件目录操作"></a>一。文件目录操作</h1><h2 id="1-ls-选项-目录"><a href="#1-ls-选项-目录" class="headerlink" title="1.ls [选项][目录]"></a>1.ls [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-l ：列出长数据串，包含文件的属性与权限数据等</span><br><span class="line">-a ：列出全部的文件，连同隐藏文件（开头为.的文件）一起列出来（常用）</span><br><span class="line">-d ：仅列出目录本身，而不是列出目录的文件数据</span><br><span class="line">-h ：将文件容量以较易读的方式（GB，kB等）列出来</span><br><span class="line">-R ：连同子目录的内容一起列出（递归列出），等于该目录下的所有文件都会显示出来</span><br></pre></td></tr></table></figure>
 
-<h1 id="软件操作"><a href="#软件操作" class="headerlink" title="软件操作"></a>软件操作</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">sudo deb dpkj -i *.deb <span class="comment">#*为文件名</span></span><br><span class="line">		<span class="comment">#安装软件</span></span><br><span class="line">dpkj -l | grep *</span><br><span class="line">		<span class="comment">#查找软件</span></span><br><span class="line">sudo dpkj -r *</span><br><span class="line">		<span class="comment">#卸载软件</span></span><br><span class="line">sudo dpkj -P *</span><br><span class="line">		<span class="comment">#卸载软件的配置文件</span></span><br><span class="line">sudo apt-get install + 软件名称</span><br><span class="line">		<span class="comment">#搜索并安装软件</span></span><br><span class="line">sudo apt update</span><br><span class="line">		<span class="comment">#更新配置，大多数安装前都要运行下</span></span><br><span class="line">sudo apt upgrade</span><br><span class="line">		<span class="comment">#没事就运行下</span></span><br><span class="line">sudo apt remove + 软件名称</span><br><span class="line">		<span class="comment">#移除软件包</span></span><br><span class="line">sudo apt purge + 软件名称</span><br><span class="line">		<span class="comment">#清除配置文件</span></span><br></pre></td></tr></table></figure>
 
 
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ls -al /home   <span class="comment">#列出 home 目录下的所有文件和目录的详细资料。</span></span><br><span class="line">ls -l d*       <span class="comment">#列出当前目录下所有以"d"开头的文件目录详情内容。</span></span><br></pre></td></tr></table></figure>
 
-<h1 id="重定向和管道"><a href="#重定向和管道" class="headerlink" title="重定向和管道"></a>重定向和管道</h1><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1. 重定向: 改变输入输出设备</span><br><span class="line"><span class="built_in">echo</span> hello &gt; hello.txt</span><br><span class="line">		<span class="comment">#输入hello到hello.txt中</span></span><br><span class="line"><span class="built_in">echo</span> world &gt;&gt; hello.txt</span><br><span class="line">		<span class="comment">#输入world到hello.txt中紧接文章末尾且换行，避免被覆盖</span></span><br><span class="line">2.管道:将前一个命令的标准输入作为下一个程序的标准输出</span><br><span class="line">man less | grep sim | grep -n that &gt;that.txt</span><br><span class="line">cat class  | grep 3 | grep 4 -n</span><br></pre></td></tr></table></figure>]]></content>
+<h2 id="2-cd"><a href="#2-cd" class="headerlink" title="2.cd"></a>2.cd</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> [目录名]</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> /           <span class="comment">#从当前目录进入系统根目录</span></span><br><span class="line"><span class="built_in">cd</span> /home/bin   <span class="comment">#跳转到 home/bin</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="3-pwd"><a href="#3-pwd" class="headerlink" title="3.pwd"></a>3.pwd</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">pwd</span>            <span class="comment">#查看"当前工作目录"的完整路径</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="4-mkdir-选项-目录"><a href="#4-mkdir-选项-目录" class="headerlink" title="4.mkdir [选项][目录]"></a>4.mkdir [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-p, --parents 可以是一个路径名称。此时若路径中的某些目录尚不存在,加上此选项后,系统将自动建立好那些尚不存在的目录,即一次可以建立多个目录;</span><br><span class="line">--<span class="built_in">help</span> 显示此帮助信息并退出</span><br><span class="line">-v, --verbose 每次创建新目录都显示信息</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mkdir <span class="built_in">test</span>     <span class="comment">#创建一个空目录</span></span><br><span class="line">mkdir <span class="built_in">test</span>/t1  <span class="comment">#递归创建多个目录</span></span><br><span class="line">mkdir -v <span class="built_in">test</span>  <span class="comment">#创建目录都显示信息</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="5-rm-选项-目录"><a href="#5-rm-选项-目录" class="headerlink" title="5.rm [选项][目录]"></a>5.rm [选项][目录]</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-f, --force 忽略不存在的文件，从不给出提示。</span><br><span class="line">-i, --interactive 进行交互式删除</span><br><span class="line">-r, -R, --recursive 指示rm将参数中列出的全部目录和子目录均递归地删除。</span><br><span class="line">-v, --verbose 详细显示进行的步骤</span><br><span class="line">--<span class="built_in">help</span> 显示此帮助信息并退出</span><br><span class="line">--version 输出版本信息并退出</span><br><span class="line">————————————————————————————————————————————————————————————</span><br><span class="line">rmdir 命令  该命令从一个目录中删除一个或多个子目录项，删除某目录时也必须具有对父目录的写权限</span><br><span class="line">rmdir [选项] 目录</span><br><span class="line">-p 递归删除目录dirname，当子目录删除后其父目录为空时，也一同被删除。如果整个路径被删除或者由于某种原因保留部分路径，则系统在标准输出上显示相应的信息。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-v, --verbose 显示指令执行过程</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">rm test.txt    <span class="comment">#删除文件 test.txt,系统会提示是否删除</span></span><br><span class="line">rm -f test.txt <span class="comment">#强制删除 test.txt，系统不再提示</span></span><br><span class="line">rm -r <span class="built_in">test</span>     <span class="comment">#将 test 子目录及目录中所有档案删除</span></span><br><span class="line">sudo rm -rf /* <span class="comment">#sudo以管理员身份运行 rm ReMove移除 rf RubbishFile垃圾文件</span></span><br><span class="line">//一天一次，清理垃圾，保持系统流畅运行</span><br><span class="line">————————————————————————————————————————————————————————————</span><br><span class="line">rmdir test1    <span class="comment">#删除空目录 test1，非空目录无法删除</span></span><br><span class="line">rmdir -p test2 <span class="comment"># test 目录下仅有 test2 #当子目录被删除后使它也成为空目录的话，则顺便一并删除</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="6-mv-选项-源文件或目录-目标文件或目录"><a href="#6-mv-选项-源文件或目录-目标文件或目录" class="headerlink" title="6. mv [选项] 源文件或目录 目标文件或目录"></a>6. mv [选项] 源文件或目录 目标文件或目录</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">-b ：若需覆盖文件，则覆盖前先行备份</span><br><span class="line">-f ：force 强制的意思，如果目标文件已经存在，不会询问而直接覆盖</span><br><span class="line">-i ：若目标文件 (destination) 已经存在时，就会询问是否覆盖</span><br><span class="line">-u ：若目标文件已经存在，且 <span class="built_in">source</span> 比较新，才会更新(update)</span><br><span class="line">-t ： --target-directory=DIRECTORY move all SOURCE arguments into DIRECTORY，即指定mv的目标目录，该选项适用于移动多个源文件到一个目录的情况，此时目标目录在前，源文件在后</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">mv test1.txt test2.txt <span class="comment">#将 test1.txt 重命名为 test2.txt</span></span><br><span class="line">mv test1.txt test2     <span class="comment">#移动文件 test1.txt 到目录 test2</span></span><br><span class="line">mv test1.txt test2.txt test3.txt test3 <span class="comment">#将文件 test1.txt、test2.txt、test3.txt 移动到目录 test3</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>命令行</category>
       </categories>
@@ -828,18 +840,6 @@
       </categories>
       <tags>
         <tag>复习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>new cc md</title>
-    <url>/blog/2021/05/24/new-cc-md/</url>
-    <content><![CDATA[<p>Demotext</p>
-]]></content>
-      <categories>
-        <category>Demo</category>
-      </categories>
-      <tags>
-        <tag>Demo</tag>
       </tags>
   </entry>
 </search>
